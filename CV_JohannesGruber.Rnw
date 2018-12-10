@@ -1,0 +1,293 @@
+% !TeX program = XeLaTeX
+\documentclass[11pt, a4paper]{article}
+\setlength{\parindent}{0pt}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage{ltablex}
+\usepackage{booktabs}
+\usepackage{tabularx,ragged2e}
+\usepackage{natbib}
+\usepackage[
+  unicode=true,
+  pdfusetitle,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  bookmarksopenlevel=2,
+  breaklinks=true,
+  colorlinks=true
+]{hyperref}
+\graphicspath{ {icos/} }
+
+
+\newcommand*{\hdline}[3][]{%
+  \vspace{5mm}
+  \makebox[0.5\linewidth]{#1%
+    \leaders\hrule height \dimexpr1ex+.2pt\relax depth \dimexpr -.5ex+.2pt\relax \hfill% Left rule
+    \enskip{\textsc{\large{#3}}}\enskip% Text (and surrounding spaces)
+    \leaders\hrule height \dimexpr1ex+.2pt\relax depth \dimexpr -.5ex+.2pt\relax \hfill\kern0pt}% Right rule
+  \leaders\hrule height \dimexpr1ex+.2pt\relax depth \dimexpr -.5ex+.2pt\relax \hfill %fill rest of line
+}
+
+\newcommand{\ico}[1]{\raisebox{-0.1em}{\includegraphics[height=1.5\fontcharht\font`\B]{#1}}}
+
+
+\newcommand{\newpar}{\par\vspace{1.5mm}}
+
+%Font
+\usepackage{tgpagella}
+\usepackage{ucs} % Unicode support
+%\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+% DOCUMENT
+\begin{document}
+<<setup, include=FALSE, cache=FALSE, results='hide', message=FALSE, warning=FALSE>>=
+library("knitr")
+# set global chunk options
+opts_chunk$set(fig.path = 'figures/CV-', fig.align = 'center', fig.show = 'hold', dev = "cairo_pdf")
+#options(formatR.arrow = TRUE, width = 90, knitr.table.format = "latex")
+knit_hooks$set(crop = hook_pdfcrop)
+@
+
+\begin{center}
+\textbf{
+  \textsc{
+    \large{Curriculum vitae} \\
+    \vspace{5mm}
+    \huge{Johannes B. Gruber}
+    }\\
+  0/2, 81 Armadale St., G31 2PS Glasgow\\
+  \ico{Phone} +44 7510 937 514 | \ico{Mail} J.Gruber.1@research.gla.ac.uk\\
+  \ico{Twitter} @JohannesBGruber | \ico{GitHub} JBGruber | \ico{Stackoverflow} JBGruber \\
+  \ico{Website} JohannesBGruber.eu\\
+  }
+\end{center}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{}{Education} \par
+
+\begin{tabularx}{\textwidth}{
+  @{} % no \tabcolsep on the left side
+  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
+  X % dynamical column width
+  @{} % no \tabcolsep on the right side
+}
+Sep. 2016---current & University of Glasgow, School of Social and Political Sciences.\newpar
+PhD in Politics (Funded by College of Social Sciences Scholarship).\par\vspace{1.5mm}%
+Thesis title (preliminary): ``Protest in the media. A framing analysis of newspaper coverage of protests in the UK 1992-2016''.\par\vspace{1.5mm}%
+Supervisors: Dr Ana Inés Langer \& Dr Brian Fogarty. \\
+\addlinespace
+
+Sep. 2014---Sep. 2015: & University of Glasgow, MSc Political Communication.\par\vspace{1.5mm}%
+Dissertation: ``Media coverage and public opinion towards protests. A case study of media frames in the coverage of the protests against Stuttgart 21, testing supervised machine learning for content analysis of frames''.\par\vspace{1.5mm}%
+Classification: With Distinction\\
+\addlinespace
+
+Oct. 2012---Jun. 2017: & Goethe University of Frankfurt/Main \& TU Darmstadt, MA Political Theory.\par\vspace{1.5mm}%
+Thesis: ``The 1\% in the news. Critique and justifications of income and wealth concentration in German and US news media during and after the global financial crisis''.\par\vspace{1.5mm}%
+Classification: Very Good (1,3)\\
+\addlinespace
+
+Oct. 2009---Sep.2012: & RWTH Aachen-University, BA Political Science; Economics and Economic Studies in History.\par\vspace{1.5mm}%
+Bachelor Thesis: ``Social acceptance of (major) projects in the German public sphere''.\par\vspace{1.5mm}%
+Classifcation: Very Good (1,5)\\
+
+\end{tabularx}
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Research Interests} \par
+My main interest remains in protest movements and their significance for political discourse in representative democracies. This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media. Beyond this, I am interested in the technological advances in the field of machine learning and automated text analysis---and more broadly in Computational Social Science---which can substantially enhance my own media research.
+
+
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Employment} \par
+\begin{tabularx}{\textwidth}{
+  @{} % no \tabcolsep on the left side
+  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
+  X % dynamical column width
+  @{} % no \tabcolsep on the right side
+}
+
+Dec. 2017---May. 2018: & Research Assistant for Dr. Philip Leifeld at the University of Glasgow.\par
+Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and its companion \texttt{R} package \texttt{rDNA} \\
+\addlinespace
+
+Mar. 2015---Dec. 2016: & Research Assistant for Dr Iñaki Sagarzazu and Dr Ana Inés Langer at the University of Glasgow.\par
+Project: ``Personalisation of UK politics in the media'' \\
+
+\addlinespace
+Nov. 2015 – Sep. 2016: & Freelance Researcher for Dr Patrick Sachweh at Goethe-University Frankfurt, Department of Sociology.\par
+Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during and after the global economic and financial crisis'' \\
+\end{tabularx}
+
+
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%\hdline{\linewidth}{Teaching Experience} \par
+%Tutor for Stata and MAXQDA at the Goethe-University Frankfurt, Department of Social Sciences.
+
+
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%\hdline{\linewidth}{Administration} \par
+%Elected member of the senate of the RWTH Aachen-University.
+
+%Elected member and second Chairman of the student’s representation of the department economics at the RWTH Aachen.
+
+%Elected first Student’s representative of the programme Economics and Economic Studies in History at the RWTH Aachen-University.
+
+
+
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Technical Skills}
+\par \vspace{10mm}
+
+<<eval=TRUE, echo=FALSE, message = FALSE, results = 'tex', fig.width = 6.5, fig.height = 3, out.width='\\textwidth'>>=
+plotData <- data.frame(skill = c("Text processing in R" = 9,
+                       "Natural Language Processing" = 8.5,
+                       "Machine learning with R" = 8.5,
+                       "ggplot2" = 8,
+                       "Package development R" = 7.5,
+                       "Latex" = 7,
+                       "Java Development" = 2,
+                       "Machine learning with python" = 1.5),
+                       stringsAsFactors = TRUE)
+plotData$skillname <- factor(rownames(plotData),
+                             levels = rownames(plotData)[order(plotData$skill)])
+library("ggplot2")
+library("extrafont")
+loadfonts(device="postscript")
+ggplot(data = plotData,
+       aes(y = skill,
+           x = skillname,
+           fill = skill)) +
+  geom_bar(position = "identity",
+           stat = "identity",
+           width = 0.5) +
+  coord_flip() +
+  xlab("") + ylab("") +
+  scale_y_continuous(breaks = c(1:10),
+                     limits = c(0, 10))+
+  scale_x_discrete(breaks = plotData$skillname) +
+  theme_bw() +
+  theme(text = element_text(size = 12,
+                            family = "Palatino"),
+        panel.grid.major = element_line(colour = "#f6f6f6",
+                                        size = 0.3,
+                                        linetype = 1),
+        panel.grid.minor = element_blank(),
+        axis.ticks.length = unit(.4, "cm")) +
+  scale_fill_gradient(high = "#636363",
+                      low = "#f0f0f0",
+                      guide = FALSE)
+
+@
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Conferences} \par
+\begin{itemize}
+\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018)
+\end{itemize}
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Awards and Grants} \par
+\begin{itemize}
+\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018) travel grant and registration fee waiver
+\item[--] Text Learning Workshop at the LSE travel funding 2017
+\item[--] College of Social Sciences PGR experience fund 2017
+\item[--] College of Social Sciences Scholarship 2016/17
+\item[--] Best Performance Prize, 2014 MSc/MRes in Political Communication
+\item[--] Dean’s list Award, 2011 (best 3\% of cohort Political Science)
+\item[--] Dean’s list Award, 2010 (best 3\% of cohort Political Science)
+\end{itemize}
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Workshops} \par
+\begin{tabularx}{\textwidth}{
+  @{} % no \tabcolsep on the left side
+  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
+  X % dynamical column width
+  @{} % no \tabcolsep on the right side
+}
+24.---25. Apr. 2017 &  Text Learning Workshop at the LSE, held by Prof. Ken Benoit, London \\
+\addlinespace
+24. Mar. 2017 & Supervised and Unsupervised Text Scaling, held by Prof. Jonathan Slapin, Glasgow \\
+\addlinespace
+
+10. Mar. 2017 & Similarity and Classification with Machine Learning for Political Texts, held by Dr Nicole Rae Baerg, Glasgow \\
+\addlinespace
+
+16. Nov. 2016 & Text Analysis with R, held by Dr Wouter van Atteveldt, Glasgow\\
+\addlinespace
+
+20. Oct. 2016 & Introduction to Text Analysis Using R, held by Prof. Ken Benoit,
+Glasgow\\
+\end{tabularx}
+
+
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Publications} \par
+%\bibcite{gruber2018LN}{{18}{2018}{{Gruber}}{{}}}
+%\citep{gruber2018ln}
+\href{%
+  https://github.com/JBGruber/LexisNexisTools
+}{%
+  Gruber, J. (2018). \emph{LexisNexisTools. An R package for working with files from LexisNexis.} R package version 0.1.1.
+}
+
+\href{%
+  https://github.com/leifeld/dna/releases/download/v2.0-beta.20/dna-manual.pdf
+}{%
+  Leifeld, P., Gruber, J. and Bossner, F. (2018). \emph{Discourse Network Analyzer Manual.}
+}
+
+
+%\bibliographystyle{apalike}
+%\bibliography{CV_JohannesGruber}
+\end{document}
