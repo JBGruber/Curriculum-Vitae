@@ -12,6 +12,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx,ragged2e}
 \usepackage{natbib}
+\renewcommand\refname{\hdline{\linewidth}{Publications} \par}
 \usepackage[
   unicode=true,
   pdfusetitle,
@@ -20,8 +21,12 @@
   bookmarksopen=true,
   bookmarksopenlevel=2,
   breaklinks=true,
-  colorlinks=true
-]{hyperref}
+  colorlinks=true,
+  urlcolor={black},
+  linkcolor={black},
+  pdfstartview={XYZ null null 1},
+  citecolor={black}
+ ]{hyperref}% For hyperlinks in the PDF
 \graphicspath{ {icos/} }
 
 
@@ -73,6 +78,7 @@ knit_hooks$set(crop = hook_pdfcrop)
   \ico{Twitter} @JohannesBGruber | \ico{GitHub} JBGruber | \ico{Stackoverflow} JBGruber \\
   \ico{Website} JohannesBGruber.eu\\
   }
+\let\thefootnote\relax\footnote{Updated: \today}
 \end{center}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{}{Education} \par
@@ -234,7 +240,7 @@ ggplot(data = plotData,
 \item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018) travel grant and registration fee waiver
 \item[--] Text Learning Workshop at the LSE travel funding 2017
 \item[--] College of Social Sciences PGR experience fund 2017
-\item[--] College of Social Sciences Scholarship 2016/17
+\item[--] College of Social Sciences Scholarship 2016/17 (funding period: 2016 -- 2020)
 \item[--] Best Performance Prize, 2014 MSc/MRes in Political Communication
 \item[--] Dean’s list Award, 2011 (best 3\% of cohort Political Science)
 \item[--] Dean’s list Award, 2010 (best 3\% of cohort Political Science)
@@ -272,22 +278,9 @@ Glasgow\\
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Publications} \par
-%\bibcite{gruber2018LN}{{18}{2018}{{Gruber}}{{}}}
-%\citep{gruber2018ln}
-\href{%
-  https://github.com/JBGruber/LexisNexisTools
-}{%
-  Gruber, J. (2018). \emph{LexisNexisTools. An R package for working with files from LexisNexis.} R package version 0.1.1.
-}
-
-\href{%
-  https://github.com/leifeld/dna/releases/download/v2.0-beta.20/dna-manual.pdf
-}{%
-  Leifeld, P., Gruber, J. and Bossner, F. (2018). \emph{Discourse Network Analyzer Manual.}
-}
-
-
-%\bibliographystyle{apalike}
-%\bibliography{CV_JohannesGruber}
+% Publications
+\nocite{*}
+\nocite{rDNA.2018}
+\bibliographystyle{apalike-url}
+\bibliography{CV_JohannesGruber}
 \end{document}
