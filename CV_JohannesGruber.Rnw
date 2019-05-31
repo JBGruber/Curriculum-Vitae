@@ -12,7 +12,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx,ragged2e}
 \usepackage{natbib}
-\renewcommand\refname{\hdline{\linewidth}{Publications} \par}
+\renewcommand\refname{\hdline{\linewidth}{Software \& Publications} \par}
 \usepackage[
   unicode=true,
   pdfusetitle,
@@ -91,7 +91,7 @@ knit_hooks$set(crop = hook_pdfcrop)
 }
 Sep. 2016---current & University of Glasgow, School of Social and Political Sciences.\newpar
 PhD in Politics (Funded by College of Social Sciences Scholarship).\par\vspace{1.5mm}%
-Thesis title (preliminary): ``Protest in the media. A framing analysis of newspaper coverage of protests in the UK 1992-2016''.\par\vspace{1.5mm}%
+Thesis title (preliminary): ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
 Supervisors: Dr Ana Inés Langer \& Dr Brian Fogarty. \\
 \addlinespace
 
@@ -117,7 +117,10 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Research Interests} \par
-My main interest remains in protest movements and their significance for political discourse in representative democracies. This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media. Beyond this, I am interested in the technological advances in the field of machine learning and automated text analysis---and more broadly in Computational Social Science---which can substantially enhance my own media research.
+My main interest remains in protest movements and their significance for political discourse in representative democracies. This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media. 
+
+Lately I also became highly involved in text analysis---and more broadly in Computational Social Science.
+I mainly use R and also started to develop several open source software packages with functions that I use in my own current or future research.
 
 
 
@@ -153,9 +156,12 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-%\hdline{\linewidth}{Teaching Experience} \par
-%Tutor for Stata and MAXQDA at the Goethe-University Frankfurt, Department of Social Sciences.
-
+\hdline{\linewidth}{Teaching Experience}
+\begin{itemize}
+\item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: Introduction to \emph{LexisNexisTools}. 2019
+\item[--] Teaching Assistant, ECPR Winter School, course:  Introduction to Discourse Networkt Analysis (\emph{DNA}). 2019
+\item[--] Tutor for Stata and MAXQDA at the Goethe-University Frankfurt, Department of Social Sciences. 2013-2014 
+\end{itemize}
 
 
 
@@ -178,50 +184,53 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Technical Skills}
-\par \vspace{10mm}
-
-<<eval=TRUE, echo=FALSE, message = FALSE, results = 'tex', fig.width = 6.5, fig.height = 3, out.width='\\textwidth'>>=
-plotData <- data.frame(skill = c("Text processing in R" = 9,
-                       "Natural Language Processing" = 8.5,
-                       "Machine learning with R" = 8.5,
-                       "ggplot2" = 8,
-                       "Package development R" = 7.5,
-                       "Latex" = 7,
-                       "Java Development" = 2,
-                       "Machine learning with python" = 1.5),
-                       stringsAsFactors = TRUE)
-plotData$skillname <- factor(rownames(plotData),
-                             levels = rownames(plotData)[order(plotData$skill)])
-library("ggplot2")
-library("extrafont")
-loadfonts(device="postscript")
-ggplot(data = plotData,
-       aes(y = skill,
-           x = skillname,
-           fill = skill)) +
-  geom_bar(position = "identity",
-           stat = "identity",
-           width = 0.5) +
-  coord_flip() +
-  xlab("") + ylab("") +
-  scale_y_continuous(breaks = c(1:10),
-                     limits = c(0, 10))+
-  scale_x_discrete(breaks = plotData$skillname) +
-  theme_bw() +
-  theme(text = element_text(size = 12,
-                            family = "Palatino"),
-        panel.grid.major = element_line(colour = "#f6f6f6",
-                                        size = 0.3,
-                                        linetype = 1),
-        panel.grid.minor = element_blank(),
-        axis.ticks.length = unit(.4, "cm")) +
-  scale_fill_gradient(high = "#636363",
-                      low = "#f0f0f0",
-                      guide = FALSE)
-
-@
-
+%\hdline{\linewidth}{Technical Skills}
+%\par \vspace{10mm}
+%
+%<<eval=TRUE, echo=FALSE, message = FALSE, results = 'tex', fig.width = 6.5, fig.height = 3, out.width='\\textwidth'>>=
+%plotData <- tibble::tribble(
+%  ~skillname,                    ~skill,
+%  "Text processing in R",         9,
+%  "Natural Language Processing",  8.5,
+%  "Machine learning with R",      8.5,
+%  "ggplot2",                      8,
+%  "Package development R",        7.5,
+%  "Latex",                        7,
+%  "Java Development",             2,
+%  "Machine learning with python", 1.5
+%)
+%
+%plotData$skillname <- factor(plotData$skillname,
+%                             levels = plotData$skillname[order(plotData$skill)])
+%library("ggplot2")
+%library("extrafont")
+%loadfonts(device="postscript")
+%ggplot(data = plotData,
+%       aes(y = skill,
+%           x = skillname,
+%           fill = skill)) +
+%  geom_bar(position = "identity",
+%           stat = "identity",
+%           width = 0.5) +
+%  coord_flip() +
+%  xlab("") + ylab("") +
+%  scale_y_continuous(breaks = c(1:10),
+%                     limits = c(0, 10))+
+%  scale_x_discrete(breaks = plotData$skillname) +
+%  theme_bw() +
+%  theme(text = element_text(size = 12,
+%                            family = "Palatino"),
+%        panel.grid.major = element_line(colour = "#f6f6f6",
+%                                        size = 0.3,
+%                                        linetype = 1),
+%        panel.grid.minor = element_blank(),
+%        axis.ticks.length = unit(.4, "cm")) +
+%  scale_fill_gradient(high = "#636363",
+%                      low = "#f0f0f0",
+%                      guide = FALSE)
+%
+%@
+%
 
 
 
@@ -278,9 +287,10 @@ Glasgow\\
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-% Publications
+% Software & Publications
 \nocite{*}
 \nocite{rDNA.2018}
+\nocite{rwhatsapp.2019}
 \bibliographystyle{apalike-url}
 \bibliography{CV_JohannesGruber}
 \end{document}
