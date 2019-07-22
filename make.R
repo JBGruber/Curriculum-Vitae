@@ -32,4 +32,3 @@ make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
   rmarkdown::render("README.Rmd")
 }
 make_cv()
-
