@@ -1,13 +1,8 @@
----
-output: github_document
----
-
-
 
 # Curriculum-Vitae
 
 [Download the PDF version](pdf_version/CV_JohannesGruber.pdf).
 
+## ![](png_version/png_version_p2-1.png)<!-- -->
 
-![plot of chunk png_version](png_version/png_version-1.png)![plot of chunk png_version](png_version/png_version-2.png)![plot of chunk png_version](png_version/png_version-3.png)
-
+![](png_version/png_version_p3-1.png)<!-- -->

@@ -6,7 +6,8 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "png_version/"
+  fig.path = "png_version/",
+  echo = FALSE
 )
 ```
 
@@ -14,11 +15,17 @@ knitr::opts_chunk$set(
 
 [Download the PDF version](pdf_version/CV_JohannesGruber.pdf).
 
-
-```{r png_version, echo = FALSE}
+---
+```{r png_version_p1}
 cv <- magick::image_read_pdf("./pdf_version/CV_JohannesGruber.pdf")
 cv[1]
+```
+---
+```{r png_version_p2}
 cv[2]
+```
+---
+```{r png_version_p3}
 cv[3]
 ```
 

@@ -29,7 +29,7 @@ make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
   tinytex::xelatex("CV_JohannesGruber.tex")
   file.rename("CV_JohannesGruber.pdf",
               "pdf_version/CV_JohannesGruber.pdf")
-  knitr::knit("README.Rmd")
+  rmarkdown::render("README.Rmd")
 }
 make_cv()
 
