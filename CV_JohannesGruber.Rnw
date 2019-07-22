@@ -158,9 +158,9 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience}
 \begin{itemize}
-\item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: Introduction to \emph{LexisNexisTools}. 2019
-\item[--] Teaching Assistant, ECPR Winter School, course:  Introduction to Discourse Networkt Analysis (\emph{DNA}). 2019
-\item[--] Tutor for Stata and MAXQDA at the Goethe-University Frankfurt, Department of Social Sciences. 2013-2014 
+\item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: Introduction to \emph{LexisNexisTools}. 29/05/2019
+\item[--] Teaching Assistant, ECPR Winter School, course:  Introduction to Discourse Network Analysis (\emph{DNA}). 22-23/02/2019
+\item[--] Tutor for \texttt{Stata} and \texttt{MAXQDA} at the Goethe-University Frankfurt, Department of Social Sciences. 2013-2014 
 \end{itemize}
 
 
@@ -235,8 +235,12 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Conferences} \par
+\hdline{\linewidth}{Conferences an Talks} \par
 \begin{itemize}
+\item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019)
+\item[--] Ninth annual conference of the European Political Science Association (EPSA 2019)
+\item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019)
+\item[--] Invited talk ``How to Analyse Media Reports (Fast)'' at Mittelbaukolloquium, Goethe University of Frankfurt/Main, 13/06/2019
 \item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018)
 \end{itemize}
 
@@ -258,7 +262,7 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 
 
 
-
+\pagebreak[4]
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Workshops} \par
 \begin{tabularx}{\textwidth}{

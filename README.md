@@ -1,9 +1,13 @@
-# Source Code for my CV
+---
+output: github_document
+---
 
-Compile using:
 
-``` 
-git clone https://github.com/JBGruber/Curriculum-Vitae.git
-cd Curriculum-Vitae
-Rscript make.R
-``` 
+
+# Curriculum-Vitae
+
+[Download the PDF version](pdf_version/CV_JohannesGruber.pdf).
+
+
+![plot of chunk png_version](png_version/png_version-1.png)![plot of chunk png_version](png_version/png_version-2.png)![plot of chunk png_version](png_version/png_version-3.png)
+

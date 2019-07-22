@@ -1,20 +1,35 @@
 # run with: Rscript make.R
-x <- spelling::spell_check_files(
-  path = "CV_JohannesGruber.Rnw",
-  ignore = readLines("DICTIONARY"),
-  lang = "en-GB"
-)
+make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
 
-# Add words to dictionary
-# x <- spelling::spell_check_files(
-#   path = "CV_JohannesGruber.Rnw",
-#   lang = "en-GB"
-# )
-# writeLines(x$word, "DICTIONARY")
+  x <- spelling::spell_check_files(
+    path = "CV_JohannesGruber.Rnw",
+    ignore = readLines("DICTIONARY"),
+    lang = "en-GB"
+  )
 
-if (nrow(x) > 0) {
-  stop("Not all misspellings resolved.")
+  #Add words to dictionary
+  if (update_wordlist) {
+    x <- spelling::spell_check_files(
+      path = "CV_JohannesGruber.Rnw",
+      lang = "en-GB"
+    )
+    writeLines(x$word, "DICTIONARY")
+  }
+
+  if (nrow(x) > 0) {
+    print(x)
+    stop("Not all misspellings resolved.")
+  }
+  if (clean) {
+    unlink(c("pdf_version", "png_version"), recursive = TRUE)
+  }
+
+  dir.create("pdf_version")
+  knitr::knit("CV_JohannesGruber.Rnw")
+  tinytex::xelatex("CV_JohannesGruber.tex")
+  file.rename("CV_JohannesGruber.pdf",
+              "pdf_version/CV_JohannesGruber.pdf")
+  knitr::knit("README.Rmd")
 }
+make_cv()
 
-knitr::knit("CV_JohannesGruber.Rnw")
-tinytex::xelatex("CV_JohannesGruber.tex")
