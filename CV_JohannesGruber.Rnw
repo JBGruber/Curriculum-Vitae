@@ -237,6 +237,7 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences an Talks} \par
 \begin{itemize}
+\item[--] European Consortium for Political Research 2019 General Conference, Wroc\l{}aw (ECPR 2019)
 \item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019)
 \item[--] Ninth annual conference of the European Political Science Association (EPSA 2019)
 \item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019)
@@ -293,7 +294,7 @@ Glasgow\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Software & Publications
 \nocite{*}
-\nocite{rDNA.2018}
+\nocite{rDNA.2019}
 \nocite{rwhatsapp.2019}
 \bibliographystyle{apalike-url}
 \bibliography{CV_JohannesGruber}
