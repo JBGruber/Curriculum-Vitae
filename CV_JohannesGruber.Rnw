@@ -73,7 +73,7 @@ knit_hooks$set(crop = hook_pdfcrop)
     \vspace{5mm}
     \huge{Johannes B. Gruber}
     }\\
-  0/2, 81 Armadale St., G31 2PS Glasgow\\
+  111, Lilybank House, University of Glasgow, G12 8RT Glasgow\\
   \ico{Phone} +44 7510 937 514 | \ico{Mail} J.Gruber.1@research.gla.ac.uk\\
   \ico{Twitter} @JohannesBGruber | \ico{GitHub} JBGruber | \ico{Stackoverflow} JBGruber \\
   \ico{Website} JohannesBGruber.eu\\
