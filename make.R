@@ -32,3 +32,19 @@ make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
   rmarkdown::render("README.Rmd")
 }
 make_cv()
+
+# make_cv(update_wordlist = TRUE)
+copy_to_homepage <- function(md_loc = "../my-homepage/content/home/cv.md",
+                             pdf_loc = "../my-homepage/static/cv/CV_JohannesGruber.pdf") {
+  file.copy("./pdf_version/CV_JohannesGruber.pdf",
+            pdf_loc,
+            overwrite = TRUE)
+  lines <- readLines(md_loc)
+  
+  lines <- gsub("last update: .*)", paste0("last update: ", 
+                                          format(Sys.Date(), "%d %B %Y"),
+                                          ")"),
+                lines)
+  writeLines(lines, md_loc)
+}
+copy_to_homepage()

@@ -92,7 +92,7 @@ knit_hooks$set(crop = hook_pdfcrop)
 Sep. 2016---current & University of Glasgow, School of Social and Political Sciences.\newpar
 PhD in Politics (Funded by College of Social Sciences Scholarship).\par\vspace{1.5mm}%
 Thesis title (preliminary): ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
-Supervisors: Dr Ana Inés Langer \& Dr Brian Fogarty. \\
+Supervisors: Dr Ana Inés Langer, Dr Sergi Pardos-Prado \& Dr Brian Fogarty. \\
 \addlinespace
 
 Sep. 2014---Sep. 2015: & University of Glasgow, MSc Political Communication.\par\vspace{1.5mm}%
@@ -295,7 +295,13 @@ Glasgow\\
 % Software & Publications
 \nocite{*}
 \nocite{rDNA.2019}
-\nocite{rwhatsapp.2019}
+\nocite{rwhatsapp.2020}
 \bibliographystyle{apalike-url}
 \bibliography{CV_JohannesGruber}
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Referee for Journals
+\hdline{\linewidth}{Referee for Journals} \par
+\href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
 \end{document}
