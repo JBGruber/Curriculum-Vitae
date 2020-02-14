@@ -35,7 +35,7 @@ make_cv()
 
 # make_cv(update_wordlist = TRUE)
 copy_to_homepage <- function(md_loc = "../my-homepage/content/home/cv.md",
-                             pdf_loc = "../my-homepage/static/cv/CV_JohannesGruber.pdf") {
+                             pdf_loc = "../my-homepage/content/cv/CV_JohannesGruber.pdf") {
   file.copy("./pdf_version/CV_JohannesGruber.pdf",
             pdf_loc,
             overwrite = TRUE)

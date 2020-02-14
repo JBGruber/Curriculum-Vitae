@@ -45,10 +45,11 @@
 \newcommand{\newpar}{\par\vspace{1.5mm}}
 
 %Font
-\usepackage{tgpagella}
 \usepackage{ucs} % Unicode support
-%\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Sans} 
+\setsansfont{Latin Modern Sans} 
+\setmonofont{Latin Modern Sans}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -58,6 +59,7 @@
 
 % DOCUMENT
 \begin{document}
+
 <<setup, include=FALSE, cache=FALSE, results='hide', message=FALSE, warning=FALSE>>=
 library("knitr")
 # set global chunk options
@@ -74,9 +76,12 @@ knit_hooks$set(crop = hook_pdfcrop)
     \huge{Johannes B. Gruber}
     }\\
   111, Lilybank House, University of Glasgow, G12 8RT Glasgow\\
-  \ico{Phone} +44 7510 937 514 | \ico{Mail} J.Gruber.1@research.gla.ac.uk\\
-  \ico{Twitter} @JohannesBGruber | \ico{GitHub} JBGruber | \ico{Stackoverflow} JBGruber \\
-  \ico{Website} JohannesBGruber.eu\\
+  \ico{Phone} +44 7510 937 514 |
+  \ico{Mail} \href{mailto:J.Gruber.1@research.gla.ac.uk}{J.Gruber.1@research.gla.ac.uk}\\
+  \ico{Twitter} \href{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
+  \ico{GitHub} \href{https://github.com/JBGruber}{JBGruber} |
+  \ico{Stackoverflow} \href{https://stackoverflow.com/users/5028841/jbgruber}{JBGruber} \\
+  \ico{Website} \href{https://www.johannesbgruber.eu/}{JohannesBGruber.eu}\\
   }
 \let\thefootnote\relax\footnote{Updated: \today}
 \end{center}
@@ -117,16 +122,14 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Research Interests} \par
-My main interest remains in protest movements and their significance for political discourse in representative democracies. This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media. 
+Methodologically my main interest lies in the systematic analysis of text---mainly via automated content analysis and natural language processing methods. 
+I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
 
-Lately I also became highly involved in text analysis---and more broadly in Computational Social Science.
-I mainly use R and also started to develop several open source software packages with functions that I use in my own current or future research.
-
-
-
+My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
+This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
 
 
-
+\newpage
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Employment} \par
@@ -175,63 +178,6 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 %Elected member and second Chairman of the student’s representation of the department economics at the RWTH Aachen.
 
 %Elected first Student’s representative of the programme Economics and Economic Studies in History at the RWTH Aachen-University.
-
-
-
-
-
-
-
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-%\hdline{\linewidth}{Technical Skills}
-%\par \vspace{10mm}
-%
-%<<eval=TRUE, echo=FALSE, message = FALSE, results = 'tex', fig.width = 6.5, fig.height = 3, out.width='\\textwidth'>>=
-%plotData <- tibble::tribble(
-%  ~skillname,                    ~skill,
-%  "Text processing in R",         9,
-%  "Natural Language Processing",  8.5,
-%  "Machine learning with R",      8.5,
-%  "ggplot2",                      8,
-%  "Package development R",        7.5,
-%  "Latex",                        7,
-%  "Java Development",             2,
-%  "Machine learning with python", 1.5
-%)
-%
-%plotData$skillname <- factor(plotData$skillname,
-%                             levels = plotData$skillname[order(plotData$skill)])
-%library("ggplot2")
-%library("extrafont")
-%loadfonts(device="postscript")
-%ggplot(data = plotData,
-%       aes(y = skill,
-%           x = skillname,
-%           fill = skill)) +
-%  geom_bar(position = "identity",
-%           stat = "identity",
-%           width = 0.5) +
-%  coord_flip() +
-%  xlab("") + ylab("") +
-%  scale_y_continuous(breaks = c(1:10),
-%                     limits = c(0, 10))+
-%  scale_x_discrete(breaks = plotData$skillname) +
-%  theme_bw() +
-%  theme(text = element_text(size = 12,
-%                            family = "Palatino"),
-%        panel.grid.major = element_line(colour = "#f6f6f6",
-%                                        size = 0.3,
-%                                        linetype = 1),
-%        panel.grid.minor = element_blank(),
-%        axis.ticks.length = unit(.4, "cm")) +
-%  scale_fill_gradient(high = "#636363",
-%                      low = "#f0f0f0",
-%                      guide = FALSE)
-%
-%@
-%
-
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -297,7 +243,7 @@ Glasgow\\
 \nocite{rDNA.2019}
 \nocite{rwhatsapp.2020}
 \bibliographystyle{apalike-url}
-\bibliography{CV_JohannesGruber}
+\bibliography{CV_JohannesGruber.bib}
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
