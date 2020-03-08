@@ -1,5 +1,5 @@
 # run with: Rscript make.R
-make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
+make_cv <- function(clean = TRUE) {
 
   x <- spelling::spell_check_files(
     path = "CV_JohannesGruber.Rnw",
@@ -7,19 +7,26 @@ make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
     lang = "en-GB"
   )
 
-  #Add words to dictionary
-  if (update_wordlist) {
-    x <- spelling::spell_check_files(
-      path = "CV_JohannesGruber.Rnw",
-      lang = "en-GB"
-    )
-    writeLines(x$word, "DICTIONARY")
-  }
-
   if (nrow(x) > 0) {
+    #Add words to dictionary
+    message(
+      "The following spelling errors were found."
+    )
+    
     print(x)
-    stop("Not all misspellings resolved.")
+    message(
+      "Ignore and add to WORDLIST?"
+    )
+    choice <- menu(c("yes", "no"))
+    
+    if (choice == 1L) {
+      dict <- sort(c(dict, x$word))
+      writeLines(dict, "WORDLIST")
+    } else {
+      stop("Spelling errors found.")
+    }
   }
+  
   if (clean) {
     unlink(c("pdf_version", "png_version"), recursive = TRUE)
   }
@@ -33,7 +40,6 @@ make_cv <- function(update_wordlist = FALSE, clean = TRUE) {
 }
 make_cv()
 
-# make_cv(update_wordlist = TRUE)
 copy_to_homepage <- function(md_loc = "../my-homepage/content/home/cv.md",
                              pdf_loc = "../my-homepage/content/cv/CV_JohannesGruber.pdf") {
   file.copy("./pdf_version/CV_JohannesGruber.pdf",
@@ -47,4 +53,10 @@ copy_to_homepage <- function(md_loc = "../my-homepage/content/home/cv.md",
                 lines)
   writeLines(lines, md_loc)
 }
-copy_to_homepage()
+message(
+  "Copy new file to Homepage?"
+)
+choice <- menu(c("yes", "no"))
+if (choice == 1L) {
+  copy_to_homepage()
+}
