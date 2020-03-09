@@ -1,0 +1,2 @@
+compile:
+	Rscript "make.R" 

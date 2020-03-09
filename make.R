@@ -14,10 +14,14 @@ make_cv <- function(clean = TRUE) {
     )
     
     print(x)
-    message(
-      "Ignore and add to WORDLIST?"
-    )
-    choice <- menu(c("yes", "no"))
+    if (interactive()) {
+      message(
+        "Ignore and add to WORDLIST?"
+      )
+      choice <- menu(c("yes", "no"))
+    } else {
+      choice <- 0
+    }
     
     if (choice == 1L) {
       dict <- sort(c(dict, x$word))
@@ -53,10 +57,7 @@ copy_to_homepage <- function(md_loc = "../my-homepage/content/home/cv.md",
                 lines)
   writeLines(lines, md_loc)
 }
-message(
-  "Copy new file to Homepage?"
-)
-choice <- menu(c("yes", "no"))
-if (choice == 1L) {
+
+if (dir.exists("../my-homepage/")) {
   copy_to_homepage()
 }
