@@ -24,8 +24,8 @@ make_cv <- function(clean = TRUE) {
     }
     
     if (choice == 1L) {
-      dict <- sort(c(dict, x$word))
-      writeLines(dict, "WORDLIST")
+      dict <- sort(c(readLines("DICTIONARY"), x$word))
+      writeLines(dict, "DICTIONARY")
     } else {
       stop("Spelling errors found.")
     }
