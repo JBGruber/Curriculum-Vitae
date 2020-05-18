@@ -1,10 +1,6 @@
 .Rhistory
-.RData
 .Rproj.user
-figures/
-CV_JohannesGruber.tex
+.directory
 CV_JohannesGruber-concordance.tex
-CV_JohannesGruber.aux
-CV_JohannesGruber.log
-CV_JohannesGruber.synctex.gz
+CV_JohannesGruber.tex
 README.html

@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 [Download the PDF version](pdf_version/CV_JohannesGruber.pdf).
 
 ----
-```{r png_version, results='asis'}
+```{r CV_JohannesGruber, results='asis'}
 cv <- magick::image_read_pdf("./pdf_version/CV_JohannesGruber.pdf")
 cv[1]
 cv[2]
