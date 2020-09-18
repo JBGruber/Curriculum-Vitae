@@ -28,3 +28,9 @@ Compile from `R` with:
 ```{r, eval=FALSE, echo=TRUE}
 source("make.R")
 ```
+
+Or via GNU Make:
+
+```{bash, eval=FALSE, echo=TRUE}
+make compile
+```

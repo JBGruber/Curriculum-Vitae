@@ -71,7 +71,7 @@ knit_hooks$set(crop = hook_pdfcrop)
 \begin{center}
 \textbf{
   \textsc{
-    \large{Curriculum vitae} \\
+    \large{Curriculum Vitae} \\
     \vspace{5mm}
     \huge{Johannes B. Gruber}
     }\\
@@ -80,7 +80,7 @@ knit_hooks$set(crop = hook_pdfcrop)
   \ico{Mail} \href{mailto:J.Gruber.1@research.gla.ac.uk}{J.Gruber.1@research.gla.ac.uk}\\
   \ico{Twitter} \href{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
   \ico{GitHub} \href{https://github.com/JBGruber}{JBGruber} |
-  \ico{Stackoverflow} \href{https://stackoverflow.com/users/5028841/jbgruber}{JBGruber} \\
+  \ico{Stackoverflow} \href{https://stackoverflow.com/users/5028841/jbgruber?tab=answers&sort=votes}{JBGruber} \\
   \ico{Website} \href{https://www.johannesbgruber.eu/}{JohannesBGruber.eu}\\
   }
 \let\thefootnote\relax\footnote{Updated: \today}
@@ -96,7 +96,7 @@ knit_hooks$set(crop = hook_pdfcrop)
 }
 Sep. 2016---current & University of Glasgow, School of Social and Political Sciences.\newpar
 PhD in Politics (Funded by College of Social Sciences Scholarship).\par\vspace{1.5mm}%
-Thesis title (preliminary): ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
+Thesis title: ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
 Supervisors: Dr Ana Inés Langer, Dr Sergi Pardos-Prado \& Dr Brian Fogarty. \\
 \addlinespace
 
@@ -140,10 +140,18 @@ This topic is closely connected to my interest in media discourse as well as rep
   @{} % no \tabcolsep on the right side
 }
 
-Dec. 2017---May. 2018: & Research Assistant for Dr. Philip Leifeld at the University of Glasgow.\par
-Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and its companion \texttt{R} package \texttt{rDNA} \\
+Sep. 2015---Current: & Public Relations Officer at Heinrich-Böll-Stiftung Hessen e.V. (Niddastr. 64; 60329 Frankfurt/Main). Work includes: managing website, creating and managing social media channels (Facebook, Twitter, Instagram, YouTube), planning and realisation of digital political education events. \\
 \addlinespace
 
+Dec. 2017---May. 2018: & Research Assistant for Dr. Philip Leifeld at the University of Glasgow.\par
+Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and its companion \texttt{R} package \texttt{rDNA} \\
+
+\addlinespace
+Sep. 2016 – Nov. 2016: & Freelance Researcher for Prof. Dr. Daniela Grunow, Faculty of Social Sciences Goethe-University.\par
+Project: ``THE APPARENT PROJECT. International and national studies of norms and gender division of work at the life course transition to parenthood''\par
+Role: creating a newspaper article dataset on parenthood depictions in \textit{The Guardian}\\
+
+\addlinespace
 Mar. 2015---Dec. 2016: & Research Assistant for Dr Iñaki Sagarzazu and Dr Ana Inés Langer at the University of Glasgow.\par
 Project: ``Personalisation of UK politics in the media'' \\
 
@@ -207,10 +215,6 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 \item[--] Dean’s list Award, 2010 (best 3\% of cohort Political Science)
 \end{itemize}
 
-
-
-
-\pagebreak[4]
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Workshops} \par
 \begin{tabularx}{\textwidth}{
@@ -246,6 +250,18 @@ Glasgow\\
 \bibliographystyle{apalike-url}
 \bibliography{CV_JohannesGruber.bib}
 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Skills
+\hdline{\linewidth}{Skills} \par
+\textbf{Languages}
+\begin{itemize}
+\item[--] German (native), English (fluent)
+\end{itemize}
+
+\textbf{Computing Knowledge}
+\begin{itemize}
+\item[--] R, \LaTeX, R Markdown, Git/GitHub, Stata, Python
+\end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Referee for Journals

@@ -1,8 +1,7 @@
 
 # Curriculum-Vitae
 
-[Download the PDF
-version](pdf_version/CV_JohannesGruber.pdf).
+[Download the PDF version](pdf_version/CV_JohannesGruber.pdf).
 
 -----
 
@@ -12,4 +11,10 @@ Compile from `R` with:
 
 ``` r
 source("make.R")
+```
+
+Or via GNU Make:
+
+``` bash
+make compile
 ```
