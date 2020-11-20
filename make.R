@@ -37,7 +37,8 @@ make_cv <- function(clean = TRUE) {
 
   dir.create("pdf_version")
   knitr::knit("CV_JohannesGruber.Rnw")
-  tinytex::latexmk("CV_JohannesGruber.tex", engine = "xelatex", emulation = FALSE)
+  tinytex::latexmk("CV_JohannesGruber.tex", engine = "xelatex", emulation = FALSE, clean = TRUE)
+  file.remove(list.files(".", ".aux$|.bbl$"))
   file.rename("CV_JohannesGruber.pdf",
               "pdf_version/CV_JohannesGruber.pdf")
   rmarkdown::render("README.Rmd")

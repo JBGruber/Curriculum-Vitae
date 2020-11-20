@@ -62,14 +62,6 @@
 % DOCUMENT
 \begin{document}
 
-<<setup, include=FALSE, cache=FALSE, results='hide', message=FALSE, warning=FALSE>>=
-library("knitr")
-# set global chunk options
-opts_chunk$set(fig.path = 'figures/CV-', fig.align = 'center', fig.show = 'hold', dev = "cairo_pdf")
-#options(formatR.arrow = TRUE, width = 90, knitr.table.format = "latex")
-knit_hooks$set(crop = hook_pdfcrop)
-@
-
 \begin{center}
 \textbf{
   \textsc{
