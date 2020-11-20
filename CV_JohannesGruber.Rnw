@@ -11,7 +11,9 @@
 \usepackage{ltablex}
 \usepackage{booktabs}
 \usepackage{tabularx,ragged2e}
-\usepackage{natbib}
+\usepackage[authoryear]{natbib}
+\usepackage{multibib}
+\newcites{software}{Software}
 \renewcommand{\bibsection}{}
 \usepackage[
   unicode=true,
@@ -244,12 +246,21 @@ Glasgow\\
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Software and Publications} \par
-\nocite{*}
-\nocite{rDNA.2019}
-\nocite{rwhatsapp.2020}
+\hdline{\linewidth}{Publications} \par
+\nocite{Langerwindrush.2020}
+\nocite{Leifeld.2018}
+
 \bibliographystyle{apalike-url}
 \bibliography{CV_JohannesGruber.bib}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Software} \par
+\nocitesoftware{rwhatsapp.2020}
+\nocitesoftware{LNTools}
+\nocitesoftware{quantedatextmodels2020}
+\nocitesoftware{rDNA.2019}
+\bibliographystylesoftware{apalike-url}
+\bibliographysoftware{CV_JohannesGruber.bib}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Skills

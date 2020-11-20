@@ -1068,7 +1068,7 @@ FUNCTION {presort}
 
 ITERATE {presort}
 
-SORT    % by label, sort.label, title---for final label calculation
+% SORT    % by label, sort.label, title---for final label calculation
 
 STRINGS { last.label next.extra } % apalike labels are only for the text;
 
@@ -1127,7 +1127,7 @@ FUNCTION {bib.sort.order}
 
 ITERATE {bib.sort.order}
 
-SORT    % by sort.label, year, title---giving final bibliography order
+% SORT    % by sort.label, year, title---giving final bibliography order
 
 FUNCTION {begin.bib}
 { preamble$ empty$        % no \etalchar in apalike
