@@ -194,13 +194,13 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
-\item[--] Third Annual COMPTEXT Conference, online event (COMPTEXT 2020)
-\item[--] European Consortium for Political Research 2019 General Conference, Wroc\l{}aw (ECPR 2019)
-\item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019)
-\item[--] Ninth annual conference of the European Political Science Association (EPSA 2019)
-\item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019)
+\item[--] Third Annual COMPTEXT Conference, online event (COMPTEXT 2020), attendee only.
+\item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation \emph{"Troublemakers in the streets? 26 years of UK newspaper coverage of protest"}.
+\item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019), Amsterdam, presentation: \emph{"Troublemakers in the streets? 26 years of UK newspaper coverage of protest"}.
+\item[--] Ninth annual conference of the European Political Science Association (EPSA 2019), Belfast, presentation: \emph{"Semi-automated Content Analysis of Media Frames"}.
+\item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019), Dublin, presentation: \emph{"How to Analyse Media Reports of protest? An Automated Content Analysis approach"}.
 \item[--] Invited talk ``How to Analyse Media Reports (Fast)'' at Mittelbaukolloquium, Goethe University of Frankfurt/Main, 13/06/2019
-\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018)
+\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018), Seattle, poster-presentation: \emph{"Semi-automated Content Analysis of Media Frames"}.
 \end{itemize}
 
 
