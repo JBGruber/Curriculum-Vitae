@@ -88,42 +88,69 @@
   X % dynamical column width
   @{} % no \tabcolsep on the right side
 }
-Sep. 2016---current & University of Glasgow, School of Social and Political Sciences.\newpar
-PhD in Politics (Funded by College of Social Sciences Scholarship).\par\vspace{1.5mm}%
+Sep. 2016---current & PhD in Politics (Funded by College of Social Sciences Scholarship).\newpar
+University of Glasgow, School of Social and Political Sciences.\par\vspace{1.5mm}%
 Thesis title: ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
 Supervisors: Dr Ana Inés Langer, Dr Sergi Pardos-Prado \& Dr Brian Fogarty. \\
 \addlinespace
 
-Sep. 2014---Sep. 2015: & University of Glasgow, MSc Political Communication.\par\vspace{1.5mm}%
+Sep. 2014---Sep. 2015: & MSc Political Communication, University of Glasgow.\par\vspace{1.5mm}%
 Dissertation: ``Media coverage and public opinion towards protests. A case study of media frames in the coverage of the protests against Stuttgart 21, testing supervised machine learning for content analysis of frames''.\par\vspace{1.5mm}%
 Classification: With Distinction\\
 \addlinespace
 
-Oct. 2012---Jun. 2017: & Goethe University of Frankfurt/Main \& TU Darmstadt, MA Political Theory.\par\vspace{1.5mm}%
+Oct. 2012---Jun. 2017: &  MA Political Theory, Goethe University of Frankfurt/Main \& TU Darmstadt.\par\vspace{1.5mm}%
 Thesis: ``The 1\% in the news. Critique and justifications of income and wealth concentration in German and US news media during and after the global financial crisis''.\par\vspace{1.5mm}%
 Classification: Very Good (1,3)\\
 \addlinespace
 
-Oct. 2009---Sep.2012: & RWTH Aachen-University, BA Political Science; Economics and Economic Studies in History.\par\vspace{1.5mm}%
+Oct. 2009---Sep.2012: & BA Political Science; Economics and Economic Studies in History, RWTH Aachen-University.\par\vspace{1.5mm}%
 Bachelor Thesis: ``Social acceptance of (major) projects in the German public sphere''.\par\vspace{1.5mm}%
 Classifcation: Very Good (1,5)\\
 
 \end{tabularx}
 
 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Publications} \par
+\nocite{Langerwindrush.2020}
+\nocite{Leifeld.2018}
 
+\bibliographystyle{apalike-url}
+\bibliography{CV_JohannesGruber.bib}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Software} \par
+\nocitesoftware{rwhatsapp.2020}
+\nocitesoftware{LNTools}
+\nocitesoftware{quantedatextmodels2020}
+\nocitesoftware{rDNA.2019}
+\bibliographystylesoftware{apalike-url}
+\bibliographysoftware{CV_JohannesGruber.bib}
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Research Interests} \par
-Methodologically my main interest lies in the systematic analysis of text---mainly via automated content analysis and natural language processing methods. 
-I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
+\hdline{\linewidth}{Awards and Grants} \par
+\begin{itemize}
+\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018) travel grant and registration fee waiver
+\item[--] Text Learning Workshop at the LSE travel funding 2017
+\item[--] College of Social Sciences PGR experience fund 2017
+\item[--] College of Social Sciences Scholarship 2016/17 (funding period: 2016 -- 2020)
+\item[--] Best Performance Prize, 2014 MSc/MRes in Political Communication
+\item[--] Dean’s list Award, 2011 (best 3\% of cohort Political Science)
+\item[--] Dean’s list Award, 2010 (best 3\% of cohort Political Science)
+\end{itemize}
 
-My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
-This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Teaching Experience} \par
+\begin{itemize}
+\item[--] Teaching Assistant, Scottish Graduate School of Social Science, course: "Quantitative Approaches to Linguistic and Textual Analysis and Data Visualisation Using R" by Stefan Müller (University College Dublin) and Theresa Gessler (University of Zürich). 4-18/11/2020
+\item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: "Introduction to \emph{LexisNexisTools}". 29/05/2019
+\item[--] Teaching Assistant, ECPR Winter School, course:  "Introduction to Discourse Network Analysis (\emph{DNA})" by Philip Leifeld (University of Glasgow). 22-23/02/2019
+\item[--] Tutor for \texttt{Stata} and \texttt{MAXQDA} at the Goethe-University Frankfurt, Department of Social Sciences. 2013-2014 
+\end{itemize}
 
-\newpage
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Employment} \par
@@ -155,25 +182,6 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 \end{tabularx}
 
 
-
-
-
-
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Teaching Experience} \par
-\begin{itemize}
-\item[--] Teaching Assistant, Scottish Graduate School of Social Science, course: "Quantitative Approaches to Linguistic and Textual Analysis and Data Visualisation Using R" by Stefan Müller (University College Dublin) and Theresa Gessler (University of Zürich). 4-18/11/2020
-\item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: "Introduction to \emph{LexisNexisTools}". 29/05/2019
-\item[--] Teaching Assistant, ECPR Winter School, course:  "Introduction to Discourse Network Analysis (\emph{DNA})" by Philip Leifeld (University of Glasgow). 22-23/02/2019
-\item[--] Tutor for \texttt{Stata} and \texttt{MAXQDA} at the Goethe-University Frankfurt, Department of Social Sciences. 2013-2014 
-\end{itemize}
-
-
-
-
-
-
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %\hdline{\linewidth}{Administration} \par
 %Elected member of the senate of the RWTH Aachen-University.
@@ -196,22 +204,8 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 \end{itemize}
 
 
-
-
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Awards and Grants} \par
-\begin{itemize}
-\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018) travel grant and registration fee waiver
-\item[--] Text Learning Workshop at the LSE travel funding 2017
-\item[--] College of Social Sciences PGR experience fund 2017
-\item[--] College of Social Sciences Scholarship 2016/17 (funding period: 2016 -- 2020)
-\item[--] Best Performance Prize, 2014 MSc/MRes in Political Communication
-\item[--] Dean’s list Award, 2011 (best 3\% of cohort Political Science)
-\item[--] Dean’s list Award, 2010 (best 3\% of cohort Political Science)
-\end{itemize}
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Workshops} \par
+\hdline{\linewidth}{Training} \par
 \begin{tabularx}{\textwidth}{
   @{} % no \tabcolsep on the left side
   >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
@@ -234,25 +228,11 @@ Glasgow\\
 \end{tabularx}
 
 
-
-
-
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Publications} \par
-\nocite{Langerwindrush.2020}
-\nocite{Leifeld.2018}
+% Referee for Journals
+\hdline{\linewidth}{Referee for Journals} \par
+\href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
 
-\bibliographystyle{apalike-url}
-\bibliography{CV_JohannesGruber.bib}
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Software} \par
-\nocitesoftware{rwhatsapp.2020}
-\nocitesoftware{LNTools}
-\nocitesoftware{quantedatextmodels2020}
-\nocitesoftware{rDNA.2019}
-\bibliographystylesoftware{apalike-url}
-\bibliographysoftware{CV_JohannesGruber.bib}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Skills
@@ -267,8 +247,14 @@ Glasgow\\
 \item[--] R, \LaTeX, R Markdown, Git/GitHub, Stata, Python
 \end{itemize}
 
+
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-% Referee for Journals
-\hdline{\linewidth}{Referee for Journals} \par
-\href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
+\hdline{\linewidth}{Research Interests} \par
+Methodologically my main interest lies in the systematic analysis of text---mainly via automated content analysis and natural language processing methods. 
+I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
+
+My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
+This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
+
+
 \end{document}
