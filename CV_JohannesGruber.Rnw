@@ -153,7 +153,7 @@ Classifcation: Very Good (1,5)\\
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Employment} \par
+\hdline{\linewidth}{Professional Experience} \par
 \begin{tabularx}{\textwidth}{
   @{} % no \tabcolsep on the left side
   >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
@@ -162,6 +162,9 @@ Classifcation: Very Good (1,5)\\
 }
 
 Sep. 2015---Current: & Public Relations Officer at Heinrich-Böll-Stiftung Hessen e.V. (Niddastr. 64; 60329 Frankfurt/Main). Work includes: managing website, creating and managing social media channels (Facebook, Twitter, Instagram, YouTube), planning and realisation of digital political education events. \\
+\addlinespace
+
+Sep. 2020---Nov. 2020: & Technical director Symposium "Politische Dimensionen kultureller Bildung" (Political Dimensions of Cultural Education) at Jewish Museum Frankfurt. Work included: Planning and implementation of video conferences between panellists as well as broadcasting the online symposium to participants. \\
 \addlinespace
 
 Dec. 2017---May. 2018: & Research Assistant for Dr. Philip Leifeld at the University of Glasgow.\par
