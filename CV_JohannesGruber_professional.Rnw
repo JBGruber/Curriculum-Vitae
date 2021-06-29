@@ -171,7 +171,7 @@ Dec. 2017---May. 2018: & Research Assistant for Dr. Philip Leifeld at the Univer
 Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and its companion \texttt{R} package \texttt{rDNA} \\
 
 \addlinespace
-Sep. 2016 – Nov. 2016: & Freelance Researcher for Prof. Dr. Daniela Grunow, Faculty of Social Sciences Goethe-University.\par
+Sep. 2016 – Dec. 2016: & Research Assistant for Prof. Dr. Daniela Grunow, Faculty of Social Sciences Goethe-University.\par
 Project: ``THE APPARENT PROJECT. International and national studies of norms and gender division of work at the life course transition to parenthood''\par
 Role: creating a newspaper article dataset on parenthood depictions in \textit{The Guardian}\\
 
@@ -180,7 +180,7 @@ Mar. 2015---Dec. 2016: & Research Assistant for Dr Iñaki Sagarzazu and Dr Ana I
 Project: ``Personalisation of UK politics in the media'' \\
 
 \addlinespace
-Nov. 2015 – Sep. 2016: & Freelance Researcher for Dr Patrick Sachweh at Goethe-University Frankfurt, Department of Sociology.\par
+Nov. 2015 – Sep. 2016: & Research Assistant for Dr Patrick Sachweh at Goethe-University Frankfurt, Department of Sociology.\par
 Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during and after the global economic and financial crisis'' \\
 \end{tabularx}
 

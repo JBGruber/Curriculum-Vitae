@@ -1,8 +1,8 @@
 # run with: Rscript make.R
-make_cv <- function(clean = TRUE) {
-
+make_cv <- function(file = "CV_JohannesGruber.Rnw", clean = TRUE) {
+  
   x <- spelling::spell_check_files(
-    path = "CV_JohannesGruber.Rnw",
+    path = file,
     ignore = readLines("DICTIONARY"),
     lang = "en-GB"
   )
@@ -36,8 +36,28 @@ make_cv <- function(clean = TRUE) {
   }
 
   dir.create("pdf_version")
-  knitr::knit("CV_JohannesGruber.Rnw")
-  tinytex::latexmk("CV_JohannesGruber.tex", engine = "xelatex", emulation = FALSE, clean = TRUE)
+  knitr::knit(file)
+  
+  check <- try(tinytex::latexmk(
+    paste0(tools::file_path_sans_ext(file), ".tex"),
+    engine = "xelatex",
+    emulation = FALSE,
+    clean = TRUE,
+    install_packages = TRUE
+  ))
+  
+  while (class(check) == "try-error") {
+    check <- try(tinytex::latexmk(
+      paste0(tools::file_path_sans_ext(file), ".tex"),
+      engine = "xelatex",
+      emulation = FALSE,
+      clean = FALSE
+    ))
+    tinytex::tlmgr_install(
+      tinytex::parse_packages(paste0(tools::file_path_sans_ext(file), ".log"))
+    )
+  }
+  
   file.remove(list.files(".", ".aux$|.bbl$"))
   file.rename("CV_JohannesGruber.pdf",
               "pdf_version/CV_JohannesGruber.pdf")
