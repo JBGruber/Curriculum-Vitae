@@ -54,11 +54,6 @@
 \setmonofont{Latin Modern Sans}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-
-
-
 % DOCUMENT
 \begin{document}
 
@@ -125,7 +120,7 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
   X % dynamical column width
   @{} % no \tabcolsep on the right side
 }
-Sep. 2016---current (submitted) & PhD in Politics (Funded by College of Social Sciences Scholarship).\newpar
+Sep. 2016---Jul. 2021 & PhD in Politics (Funded by College of Social Sciences Scholarship).\newpar
 University of Glasgow, School of Social and Political Sciences.\par\vspace{1.5mm}%
 Thesis title: ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
 Supervisors: Dr Ana Inés Langer, Dr Sergi Pardos-Prado \& Dr Brian Fogarty. \\
