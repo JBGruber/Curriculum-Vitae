@@ -145,6 +145,7 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{gruberthesis.2021}
 \nocite{Langerwindrush.2020}
 \nocite{Leifeld.2018}
 
