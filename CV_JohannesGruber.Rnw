@@ -48,10 +48,9 @@
 
 %Font
 \usepackage{ucs} % Unicode support
-\usepackage{fontspec}
-\setmainfont{Latin Modern Sans} 
-\setsansfont{Latin Modern Sans} 
-\setmonofont{Latin Modern Sans}
+\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+\renewcommand\familydefault{\sfdefault}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 % DOCUMENT
