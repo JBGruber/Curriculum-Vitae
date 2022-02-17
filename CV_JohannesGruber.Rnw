@@ -177,6 +177,9 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] Introduction to Political Communication. Winter semester 2021/22
+\item[--] Introduction to Data Science with R for Social Scientists. Winter semester 2021/22 
+\item[--] Preparatory Colloquium for Master Students. Winter semester 2021/22 
 \item[--] Teaching Assistant, Scottish Graduate School of Social Science, course: "Quantitative Approaches to Linguistic and Textual Analysis and Data Visualisation Using R" by Stefan Müller (University College Dublin) and Theresa Gessler (University of Zürich). 4-18/11/2020
 \item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: "Introduction to \emph{LexisNexisTools}". 29/05/2019
 \item[--] Teaching Assistant, ECPR Winter School, course:  "Introduction to Discourse Network Analysis (\emph{DNA})" by Philip Leifeld (University of Glasgow). 22-23/02/2019
