@@ -235,8 +235,10 @@ Glasgow\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Referee for Journals
 \hdline{\linewidth}{Referee for Journals} \par
-\href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
-
+\begin{itemize}
+\item[--] \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
+\item[--] \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
+\end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Skills
