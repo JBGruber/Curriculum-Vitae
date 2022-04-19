@@ -10,6 +10,9 @@
  }
 \usepackage{ltablex}
 \usepackage{booktabs}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{pagecol}{HTML}{ede1dc}
+\definecolor{fontcol}{HTML}{585858}
 \usepackage{tabularx,ragged2e}
 \usepackage[authoryear]{natbib}
 \usepackage{multibib}
@@ -55,6 +58,8 @@
 
 % DOCUMENT
 \begin{document}
+\pagecolor{pagecol}
+\color{fontcol}
 
 \begin{center}
 \textbf{
@@ -83,7 +88,7 @@
   @{} % no \tabcolsep on the right side
 }
 
-Jul. 2021---current: & Post-Doc Researcher at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
+Jul. 2021---\textbf{current}: & \textbf{Post-Doc Researcher} at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
 \addlinespace
 
 Nov. 2015---Jun. 2021: & Public Relations Officer at Heinrich-Böll-Stiftung Hessen e.V. (Niddastr. 64; 60329 Frankfurt/Main). Roles: Student Assistant, Research Assistant (Wissenschaftliche Hilfskraft; since 2020). Work includes: managing website, creating and managing social media channels (Facebook, Twitter, Instagram, YouTube), planning and realisation of digital political education events. \\
@@ -144,6 +149,7 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{GruberTroublemakers2022}
 \nocite{gruberthesis.2021}
 \nocite{Langerwindrush.2020}
 \nocite{Leifeld.2018}

@@ -1,2 +1,2 @@
 compile:
-	Rscript -e "if (require("littler")) {install.packages("littler")}"; r -i "make.R" 
+	Rscript -e "if (!require('littler', quietly = TRUE)) install.packages('littler')"; r -i "make.R" 
