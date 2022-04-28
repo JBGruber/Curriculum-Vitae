@@ -65,20 +65,3 @@ make_cv <- function(file = "CV_JohannesGruber.Rnw", clean = TRUE) {
 }
 make_cv()
 
-copy_to_homepage <- function(md_loc = "../my-homepage/content/home/cv.md",
-                             pdf_loc = "../my-homepage/content/cv/CV_JohannesGruber.pdf") {
-  file.copy("./pdf_version/CV_JohannesGruber.pdf",
-            pdf_loc,
-            overwrite = TRUE)
-  lines <- readLines(md_loc)
-  
-  lines <- gsub("last update: .*)", paste0("last update: ", 
-                                          format(Sys.Date(), "%d %B %Y"),
-                                          ")"),
-                lines)
-  writeLines(lines, md_loc)
-}
-
-if (dir.exists("../my-homepage/")) {
-  copy_to_homepage()
-}
