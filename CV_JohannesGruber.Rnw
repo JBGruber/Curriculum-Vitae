@@ -244,6 +244,7 @@ Glasgow\\
 \begin{itemize}
 \item[--] \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
 \item[--] \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
+\item[--] \href{https://www.m-und-k.nomos.de/}{Medien \& Kommunikationswissenschaft (M\&K)}
 \end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
