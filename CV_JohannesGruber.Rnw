@@ -11,7 +11,7 @@
 \usepackage{ltablex}
 \usepackage{booktabs}
 \usepackage[dvipsnames]{xcolor}
-\definecolor{pagecol}{HTML}{ede1dc}
+\definecolor{pagecol}{HTML}{faf6f4}
 \definecolor{fontcol}{HTML}{585858}
 \usepackage{tabularx,ragged2e}
 \usepackage[authoryear]{natbib}
@@ -172,8 +172,8 @@ Classifcation: Very Good (1,5)\\
 \begin{itemize}
 \item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018) travel grant and registration fee waiver
 \item[--] Text Learning Workshop at the LSE travel funding 2017
-\item[--] College of Social Sciences PGR experience fund 2017
-\item[--] College of Social Sciences Scholarship 2016/17 (funding period: 2016 -- 2020)
+\item[--] University of Glasgow College of Social Sciences PGR experience fund 2017
+\item[--] University of Glasgow College of Social Sciences PhD Scholarship 2016/17 (funding period: 2016 -- 2020)
 \item[--] Best Performance Prize, 2014 MSc/MRes in Political Communication
 \item[--] Dean’s list Award, 2011 (best 3\% of cohort Political Science)
 \item[--] Dean’s list Award, 2010 (best 3\% of cohort Political Science)
@@ -255,9 +255,19 @@ Glasgow\\
 \item[--] German (native), English (fluent)
 \end{itemize}
 
-\textbf{Computing Knowledge}
+\textbf{Programming/Statistical Software}
 \begin{itemize}
-\item[--] R, \LaTeX, R Markdown, Git/GitHub, Stata, Python
+\item[--] R, Python, Stata 
+\end{itemize}
+
+\textbf{Markup languages}
+\begin{itemize}
+\item[--] Markdown, \LaTeX, HTML/CSS
+\end{itemize}
+
+\textbf{System administration}
+\begin{itemize}
+\item[--] Linux, Docker, virtual machines, cloud computing
 \end{itemize}
 
 
