@@ -163,6 +163,7 @@ Classifcation: Very Good (1,5)\\
 \nocitesoftware{LNTools}
 \nocitesoftware{quantedatextmodels2020}
 \nocitesoftware{rDNA.2019}
+\nocitesoftware{paperboy}
 \bibliographystylesoftware{apalike-url}
 \bibliographysoftware{CV_JohannesGruber.bib}
 
