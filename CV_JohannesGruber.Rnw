@@ -91,27 +91,29 @@
 Jul. 2021---\textbf{current}: & \textbf{Post-Doc Researcher} at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
 \addlinespace
 
-Nov. 2015---Jun. 2021: & Public Relations Officer at Heinrich-Böll-Stiftung Hessen e.V. (Niddastr. 64; 60329 Frankfurt/Main). Roles: Student Assistant, Research Assistant (Wissenschaftliche Hilfskraft; since 2020). Work includes: managing website, creating and managing social media channels (Facebook, Twitter, Instagram, YouTube), planning and realisation of digital political education events. \\
+Nov. 2015---Jun. 2021: & Public Relations Officer at Heinrich-Böll-Stiftung Hessen e.V. (Niddastr. 64; 60329 Frankfurt/Main). Roles: Student Assistant, Research Assistant (Wissenschaftliche Hilfskraft; since 2020). Work included: managing website, creating and managing social media channels (Facebook, Twitter, Instagram, YouTube), planning and realisation of digital political education events. \\
 \addlinespace
 
-Sep. 2020---Nov. 2020: & Technical director Symposium "Politische Dimensionen kultureller Bildung" (Political Dimensions of Cultural Education) at Jewish Museum Frankfurt. Work included: Planning and implementation of video conferences between panellists as well as broadcasting the online symposium to participants. \\
+Sep. 2020---Nov. 2020: & Technical director Symposium ``Politische Dimensionen kultureller Bildung'' (Political Dimensions of Cultural Education) at Jewish Museum Frankfurt. Work included: planning and implementation of video conferences between panellists as well as broadcasting the online symposium to participants. \\
 \addlinespace
 
 Dec. 2017---May. 2018: & Research Assistant for Dr. Philip Leifeld at the University of Glasgow.\par
-Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and its companion \texttt{R} package \texttt{rDNA} \\
+Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and its companion \texttt{R} package \texttt{rDNA}. \\
 
 \addlinespace
-Sep. 2016 – Nov. 2016: & Freelance Researcher for Prof. Dr. Daniela Grunow, Faculty of Social Sciences Goethe-University.\par
+Sep. 2016---Nov. 2016: & Freelance Researcher for Prof. Dr. Daniela Grunow, Faculty of Social Sciences Goethe-University.\par
 Project: ``THE APPARENT PROJECT. International and national studies of norms and gender division of work at the life course transition to parenthood''\par
 Role: creating a newspaper article dataset on parenthood depictions in \textit{The Guardian}\\
 
 \addlinespace
-Mar. 2015---Dec. 2016: & Research Assistant for Dr Iñaki Sagarzazu and Dr Ana Inés Langer at the University of Glasgow.\par
-Project: ``Personalisation of UK politics in the media'' \\
+Mar. 2015---Dec. 2016: & Research Assistant for Dr. Iñaki Sagarzazu and Dr. Ana Inés Langer at the University of Glasgow.\par
+Project: ``Personalisation of UK politics in the media''. \par
+Work included: downloading, parsing and cleaning newspaper articles about UK cabinet members in Westminster parliament from 1992 to 2015. \\
 
 \addlinespace
-Nov. 2015 – Sep. 2016: & Freelance Researcher for Dr Patrick Sachweh at Goethe-University Frankfurt, Department of Sociology.\par
-Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during and after the global economic and financial crisis'' \\
+Nov. 2015---Sep. 2016: & Freelance Researcher for Dr. Patrick Sachweh at Goethe-University Frankfurt, Department of Sociology.\par
+Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during and after the global economic and financial crisis''. \par
+Work included: designing and conducting a comparative study on German and US media coverage of extreme wealth.\\
 \end{tabularx}
 
 
@@ -127,7 +129,7 @@ Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during 
 Sep. 2016---Jul. 2021 & PhD in Politics (Funded by College of Social Sciences Scholarship).\newpar
 University of Glasgow, School of Social and Political Sciences.\par\vspace{1.5mm}%
 Thesis title: ``Troublemakers in the streets? A framing analysis of newspaper coverage of protests in the UK 1992-2017''.\par\vspace{1.5mm}%
-Supervisors: Dr Ana Inés Langer, Dr Sergi Pardos-Prado \& Dr Brian Fogarty. \\
+Supervisors: Dr. Ana Inés Langer, Dr. Sergi Pardos-Prado \& Dr. Brian Fogarty. \\
 \addlinespace
 
 Sep. 2014---Sep. 2015: & MSc Political Communication, University of Glasgow.\par\vspace{1.5mm}%
@@ -183,26 +185,26 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
-\item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation \emph{"Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017"}.
+\item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation \emph{``Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017''}.
 \item[--] Third Annual COMPTEXT Conference, online event (COMPTEXT 2020), attendee only.
-\item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation \emph{"Troublemakers in the streets? 26 years of UK newspaper coverage of protest"}.
-\item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019), Amsterdam, presentation: \emph{"Troublemakers in the streets? 26 years of UK newspaper coverage of protest"}.
-\item[--] Ninth annual conference of the European Political Science Association (EPSA 2019), Belfast, presentation: \emph{"Semi-automated Content Analysis of Media Frames"}.
-\item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019), Dublin, presentation: \emph{"How to Analyse Media Reports of protest? An Automated Content Analysis approach"}.
-\item[--] Invited talk ``How to Analyse Media Reports (Fast)'' at Mittelbaukolloquium, Goethe University of Frankfurt/Main, 13/06/2019
-\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018), Seattle, poster-presentation: \emph{"Semi-automated Content Analysis of Media Frames"}.
+\item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
+\item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019), Amsterdam, presentation: \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
+\item[--] Ninth annual conference of the European Political Science Association (EPSA 2019), Belfast, presentation: \emph{``Semi-automated Content Analysis of Media Frames''}.
+\item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019), Dublin, presentation: \emph{``How to Analyse Media Reports of Protest? An Automated Content Analysis Approach''}.
+\item[--] Invited talk ``How to Analyse Media Reports (Fast)'' at Mittelbaukolloquium, Goethe University of Frankfurt/Main, 13/06/2019.
+\item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018), Seattle, poster-presentation: \emph{``Semi-automated Content Analysis of Media Frames''}.
 \end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
-\item[--] Introduction to Political Communication. European New School of Digital Studies (ENS). Winter semester 2021/22 
-\item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Winter semester 2021/22 
-\item[--] Preparatory Colloquium for Master Students. European New School of Digital Studies (ENS). Winter semester 2021/22 
-\item[--] Teaching Assistant, Scottish Graduate School of Social Science, course: "Quantitative Approaches to Linguistic and Textual Analysis and Data Visualisation Using R" by Stefan Müller (University College Dublin) and Theresa Gessler (University of Zürich). 4-18/11/2020
-\item[--] Invited guest lecture in course "Automatisierte Inhaltsanalyse für Textdaten mit R" (Automated content analysis for text data with R), Goethe-University Frankfurt---topic: "Introduction to \emph{LexisNexisTools}". 29/05/2019
-\item[--] Teaching Assistant, ECPR Winter School, course:  "Introduction to Discourse Network Analysis (\emph{DNA})" by Philip Leifeld (University of Glasgow). 22-23/02/2019
-\item[--] Tutor for \texttt{Stata} and \texttt{MAXQDA} at the Goethe-University Frankfurt, Department of Social Sciences. 2013-2014 
+\item[--] Introduction to Political Communication. European New School of Digital Studies (ENS). Winter Semester 2021/22 
+\item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Winter Semester 2021/22 
+\item[--] Preparatory Colloquium for Master Students. European New School of Digital Studies (ENS). Winter Semester 2021/22 
+\item[--] Teaching Assistant, Scottish Graduate School of Social Science, course: ``Quantitative Approaches to Linguistic and Textual Analysis and Data Visualisation Using R'' by Dr. Stefan Müller (University College Dublin) and Dr. Theresa Gessler (University of Zürich). 4-18/11/2020
+\item[--] Invited guest lecture in course ``Automatisierte Inhaltsanalyse für Textdaten mit R'' (Automated content analysis for text data with R), Goethe-University Frankfurt, topic: ``Introduction to \emph{LexisNexisTools}``. 29/05/2019.
+\item[--] Teaching Assistant, ECPR Winter School, course:  ``Introduction to Discourse Network Analysis (\emph{DNA})'' by Philip Leifeld (University of Glasgow). 22-23/02/2019.
+\item[--] Tutor for \texttt{Stata} and \texttt{MAXQDA} at Goethe-University Frankfurt, Department of Social Sciences. 2013-2014.
 \end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -227,10 +229,10 @@ Classifcation: Very Good (1,5)\\
 24. Mar. 2017 & Supervised and Unsupervised Text Scaling, held by Prof. Jonathan Slapin, Glasgow \\
 \addlinespace
 
-10. Mar. 2017 & Similarity and Classification with Machine Learning for Political Texts, held by Dr Nicole Rae Baerg, Glasgow \\
+10. Mar. 2017 & Similarity and Classification with Machine Learning for Political Texts, held by Dr. Nicole Rae Baerg, Glasgow \\
 \addlinespace
 
-16. Nov. 2016 & Text Analysis with R, held by Dr Wouter van Atteveldt, Glasgow\\
+16. Nov. 2016 & Text Analysis with R, held by Dr. Wouter van Atteveldt, Glasgow\\
 \addlinespace
 
 20. Oct. 2016 & Introduction to Text Analysis Using R, held by Prof. Ken Benoit,
