@@ -161,11 +161,12 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Software} \par
-\nocitesoftware{rwhatsapp.2020}
-\nocitesoftware{LNTools}
-\nocitesoftware{quantedatextmodels2020}
-\nocitesoftware{rDNA.2019}
+\nocitesoftware{rwhatsapp}
+\nocitesoftware{traktok}
 \nocitesoftware{paperboy}
+\nocitesoftware{quantedatextmodels}
+\nocitesoftware{LNTools}
+\nocitesoftware{rDNA.2019}
 \bibliographystylesoftware{apalike-url}
 \bibliographysoftware{CV_JohannesGruber.bib}
 
@@ -198,6 +199,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Summer Semester 2022 
 \item[--] Introduction to Political Communication. European New School of Digital Studies (ENS). Winter Semester 2021/22 
 \item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Winter Semester 2021/22 
 \item[--] Preparatory Colloquium for Master Students. European New School of Digital Studies (ENS). Winter Semester 2021/22 
