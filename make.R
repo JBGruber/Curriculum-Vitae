@@ -43,18 +43,21 @@ make_cv <- function(file = "CV_JohannesGruber.Rnw", clean = TRUE) {
     engine = "xelatex",
     emulation = FALSE,
     clean = TRUE,
-    install_packages = TRUE
+    install_packages = FALSE
   ))
+  missing <- character(1L)
   
-  while (class(check) == "try-error") {
+  while (class(check) == "try-error" && length(missing) > 0) {
     check <- try(tinytex::latexmk(
       paste0(tools::file_path_sans_ext(file), ".tex"),
       engine = "xelatex",
       emulation = FALSE,
-      clean = FALSE
+      clean = FALSE,
+      install_packages = FALSE
     ))
+    missing <- tinytex::parse_packages(paste0(tools::file_path_sans_ext(file), ".log"))
     tinytex::tlmgr_install(
-      tinytex::parse_packages(paste0(tools::file_path_sans_ext(file), ".log"))
+      missing
     )
   }
   

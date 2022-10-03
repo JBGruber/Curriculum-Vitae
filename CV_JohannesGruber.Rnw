@@ -50,7 +50,7 @@
 \newcommand{\newpar}{\par\vspace{1.5mm}}
 
 %Font
-\usepackage{ucs} % Unicode support
+% \usepackage{ucs} % Unicode support
 \usepackage[scaled]{helvet}
 \usepackage[T1]{fontenc}
 \renewcommand\familydefault{\sfdefault}
@@ -68,9 +68,8 @@
     \vspace{5mm}
     \huge{Johannes B. Gruber}
     }\\
-  Stiftung Europa-Universität Viadrina, Grosse Scharrnstrasse 59, 15230 Frankfurt (Oder), Germany\\
-  % \ico{Phone} +44 7510 937 514 |
-  \ico{Mail} \href{mailto:Gruber@Europa-Uni.de}{Gruber@Europa-Uni.de}\\
+  Vrije Universiteit Amsterdam\\
+  \ico{Mail} \href{mailto:J.B.Gruber@vu.nl}{J.B.Gruber@vu.nl}\\
   \ico{Twitter} \href{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
   \ico{GitHub} \href{https://github.com/JBGruber}{JBGruber} |
   \ico{Stackoverflow} \href{https://stackoverflow.com/users/5028841/jbgruber?tab=answers&sort=votes}{JBGruber} \\
@@ -88,7 +87,10 @@
   @{} % no \tabcolsep on the right side
 }
 
-Jul. 2021---\textbf{current}: & \textbf{Post-Doc Researcher} at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
+Oct. 2022---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at Vrije Universiteit Amsterdam. \\
+\addlinespace
+
+Jul. 2021---Sep. 2022: & \textbf{Post-Doc Researcher} at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
 \addlinespace
 
 Nov. 2015---Jun. 2021: & Public Relations Officer at Heinrich-Böll-Stiftung Hessen e.V. (Niddastr. 64; 60329 Frankfurt/Main). Roles: Student Assistant, Research Assistant (Wissenschaftliche Hilfskraft; since 2020). Work included: managing website, creating and managing social media channels (Facebook, Twitter, Instagram, YouTube), planning and realisation of digital political education events. \\
@@ -115,7 +117,7 @@ Nov. 2015---Sep. 2016: & Freelance Researcher for Dr. Patrick Sachweh at Goethe-
 Project: ``Comparative media analysis (US/GER) – The ‘One Percent’ during and after the global economic and financial crisis''. \par
 Work included: designing and conducting a comparative study on German and US media coverage of extreme wealth.\\
 \end{tabularx}
-
+\newpage
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{}{Education} \par
@@ -186,6 +188,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] 2022 APSA Annual Meeting \& Exhibition, Montreal, presentation \emph{``Why WallStreetBets isn’t Occupy 2.0: How the Rise of Platforms can Disrupt Connective Action''}.
 \item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation \emph{``Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017''}.
 \item[--] Third Annual COMPTEXT Conference, online event (COMPTEXT 2020), attendee only.
 \item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
