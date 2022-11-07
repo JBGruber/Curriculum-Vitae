@@ -70,6 +70,7 @@
     }\\
   Vrije Universiteit Amsterdam\\
   \ico{Mail} \href{mailto:J.B.Gruber@vu.nl}{J.B.Gruber@vu.nl}\\
+  \ico{Mastodon} \href{https://fosstodon.org/@JBGruber}{@JBGruber@fosstodon.org} | 
   \ico{Twitter} \href{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
   \ico{GitHub} \href{https://github.com/JBGruber}{JBGruber} |
   \ico{Stackoverflow} \href{https://stackoverflow.com/users/5028841/jbgruber?tab=answers&sort=votes}{JBGruber} \\
@@ -188,8 +189,10 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] 2022 ECREA 2022 9th European Communication Conference, Aarhus, presentation \emph{``Fragmentation in Your Feeds? What voters saw on Facebook in the 2021 German election campaigns''}.
 \item[--] 2022 APSA Annual Meeting \& Exhibition, Montreal, presentation \emph{``Why WallStreetBets isn’t Occupy 2.0: How the Rise of Platforms can Disrupt Connective Action''}.
-\item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation \emph{``Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017''}.
+\item[--] Invited Talk ``Semi-Automated Content Analysis of Media Frames'' at Text as Data PoliSci Reading Group, 05/07/2022.
+\item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation \emph{``Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017''}, \url{https://youtu.be/uA4rs2at-bc}.
 \item[--] Third Annual COMPTEXT Conference, online event (COMPTEXT 2020), attendee only.
 \item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
 \item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019), Amsterdam, presentation: \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
