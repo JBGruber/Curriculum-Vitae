@@ -189,6 +189,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] 2022 (In)Visibility in the Digital Age, DGPuK-Fachgruppe Digitale Kommunikation, Düsseldorf, presentation \emph{``Fragmentierung im Facebook-Feed? Die (Un-)Sichtbarkeit politischer Inhalte im Bundestagswahlkampf 2021''}.
 \item[--] 2022 ECREA 2022 9th European Communication Conference, Aarhus, presentation \emph{``Fragmentation in Your Feeds? What voters saw on Facebook in the 2021 German election campaigns''}.
 \item[--] 2022 APSA Annual Meeting \& Exhibition, Montreal, presentation \emph{``Why WallStreetBets isn’t Occupy 2.0: How the Rise of Platforms can Disrupt Connective Action''}.
 \item[--] Invited Talk ``Semi-Automated Content Analysis of Media Frames'' at Text as Data PoliSci Reading Group, 05/07/2022.
@@ -252,6 +253,9 @@ Glasgow\\
 % Referee for Journals
 \hdline{\linewidth}{Referee for Journals} \par
 \begin{itemize}
+\item[--] \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
+\item[--] \href{https://journals.sagepub.com/home/hij}{The International Journal of Press/Politics}
+\item[--] \href{https://epjdatascience.springeropen.com/}{EPJ Data Science}
 \item[--] \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
 \item[--] \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
 \item[--] \href{https://www.m-und-k.nomos.de/}{Medien \& Kommunikationswissenschaft (M\&K)}
@@ -272,7 +276,7 @@ Glasgow\\
 
 \textbf{Markup languages}
 \begin{itemize}
-\item[--] Markdown, \LaTeX, HTML/CSS
+\item[--] Quarto/R Markdown, Markdown, \LaTeX, HTML/CSS
 \end{itemize}
 
 \textbf{System administration}
@@ -287,7 +291,8 @@ Methodologically my main interest lies in the systematic analysis of text---main
 I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
 
 My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
-This topic is closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
+Currently I also develop my own research line on diffusion of ideas in hybrid media systems.
+Both topics is closely connect to my interest in media discourse as well as representation of dissent and demonstrations in the media.
 
 
 \end{document}
