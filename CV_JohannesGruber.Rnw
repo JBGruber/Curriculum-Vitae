@@ -17,6 +17,7 @@
 \usepackage[authoryear]{natbib}
 \usepackage{multibib}
 \newcites{software}{Software}
+\newcites{ongoing}{Ongoing}
 \renewcommand{\bibsection}{}
 \usepackage[
   unicode=true,
@@ -27,11 +28,12 @@
   bookmarksopenlevel=2,
   breaklinks=true,
   colorlinks=true,
-  urlcolor={black},
-  linkcolor={black},
+  urlcolor={MidnightBlue},
+  linkcolor={MidnightBlue},
   pdfstartview={XYZ null null 1},
-  citecolor={black}
+  citecolor={MidnightBlue}
  ]{hyperref}% For hyperlinks in the PDF
+\newcommand{\titlehref}[3][black]{\href{#2}{\color{#1}{#3}}}%
 \graphicspath{ {icos/} }
 
 
@@ -56,6 +58,13 @@
 \renewcommand\familydefault{\sfdefault}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+%Footer
+\usepackage{fancyhdr}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyfoot[C]{\color{fontcol}Johannes B. Gruber~|~CV~|~Page~ \thepage}
+
 % DOCUMENT
 \begin{document}
 \pagecolor{pagecol}
@@ -69,12 +78,12 @@
     \huge{Johannes B. Gruber}
     }\\
   Vrije Universiteit Amsterdam\\
-  \ico{Mail} \href{mailto:J.B.Gruber@vu.nl}{J.B.Gruber@vu.nl}\\
-  \ico{Mastodon} \href{https://fosstodon.org/@JBGruber}{@JBGruber@fosstodon.org} | 
-  \ico{Twitter} \href{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
-  \ico{GitHub} \href{https://github.com/JBGruber}{JBGruber} |
-  \ico{Stackoverflow} \href{https://stackoverflow.com/users/5028841/jbgruber?tab=answers&sort=votes}{JBGruber} \\
-  \ico{Website} \href{https://www.johannesbgruber.eu/}{JohannesBGruber.eu}\\
+  \ico{Mail} \titlehref{mailto:J.B.Gruber@vu.nl}{J.B.Gruber@vu.nl}\\
+  \ico{Mastodon} \titlehref{https://fosstodon.org/@JBGruber}{@JBGruber@fosstodon.org} | 
+  \ico{Twitter} \titlehref{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
+  \ico{GitHub} \titlehref{https://github.com/JBGruber}{JBGruber} |
+  \ico{Stackoverflow} \titlehref{https://stackoverflow.com/users/5028841/jbgruber?tab=answers&sort=votes}{JBGruber} \\
+  \ico{Website} \titlehref{https://www.johannesbgruber.eu/}{JohannesBGruber.eu}\\
   }
 \let\thefootnote\relax\footnote{Updated: \today}
 \end{center}
@@ -88,7 +97,10 @@
   @{} % no \tabcolsep on the right side
 }
 
-Oct. 2022---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at Vrije Universiteit Amsterdam. \\
+Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+\addlinespace
+
+Oct. 2022---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at Vrije Universiteit Amsterdam. Project: \href{https://opted.eu/}{OPTED -- Observatory for Political Texts in European Democracies}. \\
 \addlinespace
 
 Jul. 2021---Sep. 2022: & \textbf{Post-Doc Researcher} at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
@@ -154,6 +166,7 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{qtele2022}
 \nocite{GruberTroublemakers2022}
 \nocite{gruberthesis.2021}
 \nocite{Langerwindrush.2020}
@@ -165,10 +178,11 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Software} \par
 \nocitesoftware{rwhatsapp}
-\nocitesoftware{traktok}
 \nocitesoftware{paperboy}
-\nocitesoftware{quantedatextmodels}
+\nocitesoftware{traktok}
+\nocitesoftware{askgpt}
 \nocitesoftware{LNTools}
+\nocitesoftware{quantedatextmodels}
 \nocitesoftware{rDNA.2019}
 \bibliographystylesoftware{apalike-url}
 \bibliographysoftware{CV_JohannesGruber.bib}
@@ -206,6 +220,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] Text Analysis in R: An Introduction at Goethe-University Frankfurt, 27-28/03/2023.
+\item[--] \href{https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine#h.36dsv5tl42am}{Python for R users} (\#WorkshopsForUkraine), 16/02/2023.
 \item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Summer Semester 2022 
 \item[--] Introduction to Political Communication. European New School of Digital Studies (ENS). Winter Semester 2021/22 
 \item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Winter Semester 2021/22 
@@ -292,7 +308,7 @@ I predominantly use R for this and also started to develop several open-source s
 
 My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
 Currently I also develop my own research line on diffusion of ideas in hybrid media systems.
-Both topics is closely connect to my interest in media discourse as well as representation of dissent and demonstrations in the media.
+Both topics are closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
 
 
 \end{document}
