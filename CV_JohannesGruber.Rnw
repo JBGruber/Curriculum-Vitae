@@ -203,7 +203,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
-\item[--] 32nd Annual International Communication Association (ICA 2023) Conference, Toronto, presentation \emph{``Why WallStreetBets Isn’t Occupy 2.0: How the Rise of Platforms Can Disrupt Connective Action''; ``[Tool Demo] AmCAT(s): The Amsterdam Content Analysis Toolkits Suite''}.
+\item[--] 13th annual conference of the European Political Science Association (EPSA 2023), Glasgow, presentations: \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System'', ``Whose voices are heard? Making sense of framing patterns in protest coverage''}.
+\item[--] 32nd Annual International Communication Association (ICA 2023) Conference, Toronto, presentations: \emph{``Why WallStreetBets Isn’t Occupy 2.0: How the Rise of Platforms Can Disrupt Connective Action''; ``[Tool Demo] AmCAT(s): The Amsterdam Content Analysis Toolkits Suite''}.
 \item[--] COMPTEXT Conference 2023, Glasgow, presentation \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System''}.
 \item[--] 2022 (In)Visibility in the Digital Age, DGPuK-Fachgruppe Digitale Kommunikation, Düsseldorf, presentation \emph{``Fragmentierung im Facebook-Feed? Die (Un-)Sichtbarkeit politischer Inhalte im Bundestagswahlkampf 2021''}.
 \item[--] 2022 ECREA 2022 9th European Communication Conference, Aarhus, presentation \emph{``Fragmentation in Your Feeds? What voters saw on Facebook in the 2021 German election campaigns''}.
@@ -222,6 +223,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
 \item[--] Collaborative annotation projects for supervised machine learning with \emph{AmCAT} at \emph{NCRM/Exeter Computational Communication Methods Spring School}, 28/04/2023
 \item[--] Text Analysis in R: An Introduction at Goethe-University Frankfurt, 27-28/03/2023.
 \item[--] \href{https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine#h.36dsv5tl42am}{Python for R users} (\#WorkshopsForUkraine), 16/02/2023.
@@ -272,13 +274,15 @@ Glasgow\\
 % Referee for Journals
 \hdline{\linewidth}{Referee for Journals} \par
 \begin{itemize}
-\item[--] \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
-\item[--] \href{https://journals.sagepub.com/home/hij}{The International Journal of Press/Politics}
-\item[--] \href{https://epjdatascience.springeropen.com/}{EPJ Data Science}
-\item[--] \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
-\item[--] \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
-\item[--] \href{https://www.m-und-k.nomos.de/}{Medien \& Kommunikationswissenschaft (M\&K)}
+  \item \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
+  \item \href{https://epjdatascience.springeropen.com/}{EPJ Data Science}
+  \item \href{https://www.tandfonline.com/journals/hmcs20}{Mass Communication and Society}
+  \item \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
+  \item \href{https://www.m-und-k.nomos.de/}{Medien \& Kommunikationswissenschaft (M\&K)}
+  \item \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
+  \item \href{https://journals.sagepub.com/home/hij}{The International Journal of Press/Politics}
 \end{itemize}
+
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Skills
