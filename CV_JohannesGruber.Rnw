@@ -223,6 +223,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] Essex Summer School in Social Science Data Analysis: Introduction to Web Scraping and Data Management for Social Scientists, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
 \item[--] Collaborative annotation projects for supervised machine learning with \emph{AmCAT} at \emph{NCRM/Exeter Computational Communication Methods Spring School}, 28/04/2023
 \item[--] Text Analysis in R: An Introduction at Goethe-University Frankfurt, 27-28/03/2023.
