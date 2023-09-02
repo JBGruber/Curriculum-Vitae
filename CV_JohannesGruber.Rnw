@@ -181,6 +181,7 @@ Classifcation: Very Good (1,5)\\
 \nocitesoftware{rwhatsapp}
 \nocitesoftware{paperboy}
 \nocitesoftware{traktok}
+\nocitesoftware{cookiemonster}
 \nocitesoftware{LNTools}
 \nocitesoftware{quantedatextmodels}
 \nocitesoftware{rDNA.2019}
