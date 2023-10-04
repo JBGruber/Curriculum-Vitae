@@ -100,7 +100,7 @@
 Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
-Oct. 2022---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at Vrije Universiteit Amsterdam. Project: \href{https://opted.eu/}{OPTED -- Observatory for Political Texts in European Democracies}. \\
+Oct. 2022---Sep. 2023: & \textbf{Post-Doc Researcher} at the Department of Communication Science at Vrije Universiteit Amsterdam. Project: \href{https://opted.eu/}{OPTED -- Observatory for Political Texts in European Democracies}. \\
 \addlinespace
 
 Jul. 2021---Sep. 2022: & \textbf{Post-Doc Researcher} at the Chair of Political Theory and Digital Democracy, European New School of Digital Studies (ENS), European University Viadrina Foundation Frankfurt (Oder). \\
@@ -188,6 +188,23 @@ Classifcation: Very Good (1,5)\\
 \bibliographystylesoftware{apalike-url}
 \bibliographysoftware{CV_JohannesGruber.bib}
 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Ongoing Projects} \par
+\nociteongoing{inclusive_software}
+\nociteongoing{inclusive_teaching}
+\nociteongoing{voices}
+\nociteongoing{fb_election}
+% \nociteongoing{comp_frames}
+\nociteongoing{nonconsumptive}
+% \nociteongoing{amcat}
+\nociteongoing{reprohack}
+% \nociteongoing{euro_tiktok}
+% \nociteongoing{cost_opinion}
+\nociteongoing{windrush2}
+
+
+\bibliographystyleongoing{apalike-url-noyearletter}
+\bibliographyongoing{CV_JohannesGruber.bib}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Awards and Grants} \par
@@ -224,7 +241,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
-\item[--] Essex Summer School in Social Science Data Analysis: Introduction to Web Scraping and Data Management for Social Scientists, 24-28/07/2023
+\item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
 \item[--] Collaborative annotation projects for supervised machine learning with \emph{AmCAT} at \emph{NCRM/Exeter Computational Communication Methods Spring School}, 28/04/2023
 \item[--] Text Analysis in R: An Introduction at Goethe-University Frankfurt, 27-28/03/2023.
@@ -237,6 +254,13 @@ Classifcation: Very Good (1,5)\\
 \item[--] Invited guest lecture in course ``Automatisierte Inhaltsanalyse für Textdaten mit R'' (Automated content analysis for text data with R), Goethe-University Frankfurt, topic: ``Introduction to \emph{LexisNexisTools}``. 29/05/2019.
 \item[--] Teaching Assistant, ECPR Winter School, course:  ``Introduction to Discourse Network Analysis (\emph{DNA})'' by Philip Leifeld (University of Glasgow). 22-23/02/2019.
 \item[--] Tutor for \texttt{Stata} and \texttt{MAXQDA} at Goethe-University Frankfurt, Department of Social Sciences. 2013-2014.
+\end{itemize}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\hdline{\linewidth}{Professional Memberships} \par
+\begin{itemize}
+\item[--] International Communication Association.
+\item[--] COST action network \href{https://www.opinion-network.eu/}{OPINION}.
 \end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -312,7 +336,7 @@ Glasgow\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Research Interests} \par
-Methodologically my main interest lies in the systematic analysis of text---mainly via automated content analysis and natural language processing methods. 
+Methodologically my main interest lies in the systematic analysis of media---mainly via automated content analysis and natural language processing methods. 
 I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
 
 My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
