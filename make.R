@@ -68,7 +68,7 @@ make_cv <- function(file = "CV_JohannesGruber.Rnw", clean = TRUE) {
 }
 
 update_downloads <- function(file = "CV_JohannesGruber.bib",
-                             packages = c("askgpt", "rwhatsapp", "LexisNexisTools")) {
+                             packages = c("askgpt", "rwhatsapp", "LexisNexisTools", "cookiemonster")) {
   
   if (file.exists(".last_updated")) 
     if (readLines(".last_updated") >= Sys.Date())
@@ -86,7 +86,7 @@ update_downloads <- function(file = "CV_JohannesGruber.bib",
     
     entry <- entries[[grep(packages[i], entries)]]
     entries[[grep(packages[i], entries)]] <- gsub("\\{Cranlogs download count: [0-9,]+\\}",
-                                                  paste("{Cranlogs download count:", ds, "}"),
+                                                  paste0("{Cranlogs download count: ", ds, "}"),
                                                   entry)
   }
   writeLines(as.character(Sys.Date()), ".last_updated")

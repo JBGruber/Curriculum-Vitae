@@ -182,29 +182,11 @@ Classifcation: Very Good (1,5)\\
 \nocitesoftware{paperboy}
 \nocitesoftware{traktok}
 \nocitesoftware{cookiemonster}
-\nocitesoftware{LNTools}
+\nocitesoftware{LexisNexisTools}
 \nocitesoftware{quantedatextmodels}
 \nocitesoftware{rDNA.2019}
 \bibliographystylesoftware{apalike-url}
 \bibliographysoftware{CV_JohannesGruber.bib}
-
-%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Ongoing Projects} \par
-\nociteongoing{inclusive_software}
-\nociteongoing{inclusive_teaching}
-\nociteongoing{voices}
-\nociteongoing{fb_election}
-% \nociteongoing{comp_frames}
-\nociteongoing{nonconsumptive}
-% \nociteongoing{amcat}
-\nociteongoing{reprohack}
-% \nociteongoing{euro_tiktok}
-% \nociteongoing{cost_opinion}
-\nociteongoing{windrush2}
-
-
-\bibliographystyleongoing{apalike-url-noyearletter}
-\bibliographyongoing{CV_JohannesGruber.bib}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Awards and Grants} \par
@@ -243,7 +225,7 @@ Classifcation: Very Good (1,5)\\
 \begin{itemize}
 \item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
-\item[--] Collaborative annotation projects for supervised machine learning with \emph{AmCAT} at \emph{NCRM/Exeter Computational Communication Methods Spring School}, 28/04/2023
+\item[--] NCRM/Exeter Computational Communication Methods Spring School: \href{https://web.archive.org/web/20230324195816/https://politics.exeter.ac.uk/research/centres/q-step/events/ncrmexetercomputationalcommunicationmethodsspringschool/#a5}{Collaborative annotation projects for supervised machine learning with \emph{AmCAT}}, 28/04/2023
 \item[--] Text Analysis in R: An Introduction at Goethe-University Frankfurt, 27-28/03/2023.
 \item[--] \href{https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine#h.36dsv5tl42am}{Python for R users} (\#WorkshopsForUkraine), 16/02/2023.
 \item[--] Introduction to Data Science with R for Social Scientists. European New School of Digital Studies (ENS). Summer Semester 2022 
