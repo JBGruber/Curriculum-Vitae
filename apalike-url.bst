@@ -49,6 +49,7 @@ ENTRY
     key
 %    month    not used in apalike
     note
+    downloads
     number
     organization
     pages
@@ -244,6 +245,15 @@ FUNCTION {format.note}
   { "" }
   { 
     "{\small " note *
+    "}" *
+  }
+      if$
+}
+FUNCTION {format.downloads}
+{ downloads empty$
+  { "" }
+  { 
+    "{\small " downloads *
     "}" *
   }
       if$
@@ -688,6 +698,26 @@ FUNCTION {manual}
   format.note output
   new.block
   format.url output 
+  fin.entry
+}
+
+FUNCTION {package}
+{ output.bibitem
+  format.authors output
+  author format.key output        % special for
+  output.year.check         % apalike
+  new.block
+  format.btitle "title" output.check
+  organization address new.block.checkb
+  organization output
+  address output
+  format.edition output
+  new.block
+  format.note output
+  new.block
+  format.url output 
+  new.block
+  format.downloads output
   fin.entry
 }
 

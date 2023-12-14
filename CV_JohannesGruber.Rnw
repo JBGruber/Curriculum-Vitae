@@ -183,7 +183,8 @@ Classifcation: Very Good (1,5)\\
 \nocitesoftware{traktok}
 \nocitesoftware{cookiemonster}
 \nocitesoftware{LexisNexisTools}
-\nocitesoftware{quantedatextmodels}
+\nocitesoftware{spacyr}
+\nocitesoftware{quanteda.textmodels}
 \nocitesoftware{rDNA.2019}
 \bibliographystylesoftware{apalike-url}
 \bibliographysoftware{CV_JohannesGruber.bib}

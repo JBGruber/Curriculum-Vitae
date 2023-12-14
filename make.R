@@ -68,7 +68,12 @@ make_cv <- function(file = "CV_JohannesGruber.Rnw", clean = TRUE) {
 }
 
 update_downloads <- function(file = "CV_JohannesGruber.bib",
-                             packages = c("askgpt", "rwhatsapp", "LexisNexisTools", "cookiemonster")) {
+                             packages = c("askgpt", 
+                                          "rwhatsapp", 
+                                          "LexisNexisTools",
+                                          "cookiemonster",
+                                          "spacyr",
+                                          "quanteda.textmodels")) {
   
   if (file.exists(".last_updated")) 
     if (readLines(".last_updated") >= Sys.Date())
@@ -80,6 +85,8 @@ update_downloads <- function(file = "CV_JohannesGruber.bib",
   entries <- lapply(seq_along(entry_start), function(i) lines[entry_start[i]:ends[i]])
   
   for (i in seq_along(packages)) {
+    if (interactive()) 
+      message(packages[i])
     ds <- cranlogs::cran_downloads(packages[i], from = "2018-04-09", to = Sys.Date())$count |> 
       sum() |> 
       scales::comma()
