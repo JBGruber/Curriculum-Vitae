@@ -178,6 +178,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Software} \par
 \nocitesoftware{askgpt}
+\nocitesoftware{atrrr}
 \nocitesoftware{rwhatsapp}
 \nocitesoftware{paperboy}
 \nocitesoftware{traktok}
@@ -243,7 +244,7 @@ Classifcation: Very Good (1,5)\\
 \hdline{\linewidth}{Professional Memberships} \par
 \begin{itemize}
 \item[--] International Communication Association.
-\item[--] COST action network \href{https://www.opinion-network.eu/}{OPINION}.
+\item[--] COST action network \href{https://www.opinion-network.eu/}{OPINION} -- Vice Chair Working Group 2 (Tools).
 \end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

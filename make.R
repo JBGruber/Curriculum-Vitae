@@ -68,7 +68,8 @@ make_cv <- function(file = "CV_JohannesGruber.Rnw", clean = TRUE) {
 }
 
 update_downloads <- function(file = "CV_JohannesGruber.bib",
-                             packages = c("askgpt", 
+                             packages = c("askgpt",
+                                          "atrrr",
                                           "rwhatsapp", 
                                           "LexisNexisTools",
                                           "cookiemonster",
