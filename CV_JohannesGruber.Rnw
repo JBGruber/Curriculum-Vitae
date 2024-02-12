@@ -180,6 +180,7 @@ Classifcation: Very Good (1,5)\\
 \nocitesoftware{askgpt}
 \nocitesoftware{atrrr}
 \nocitesoftware{rwhatsapp}
+\nocitesoftware{rollama}
 \nocitesoftware{paperboy}
 \nocitesoftware{traktok}
 \nocitesoftware{cookiemonster}
@@ -205,6 +206,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2023), Rotterdam, presentations: \emph{``Dancing to the partisan beat. A comparative analysis of political parties’ TikTok use across Europe''}.
+\item[--] Invited Talk \emph{``Using open source generative large language models with Ollama''} at the Vrije Universiteit Amsterdam Societal Analytics Lab New Year's meetup and LLM-workshop, 30/01/2024.
 \item[--] 13th annual conference of the European Political Science Association (EPSA 2023), Glasgow, presentations: \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System'', ``Whose voices are heard? Making sense of framing patterns in protest coverage''}.
 \item[--] 32nd Annual International Communication Association (ICA 2023) Conference, Toronto, presentations: \emph{``Why WallStreetBets Isn’t Occupy 2.0: How the Rise of Platforms Can Disrupt Connective Action''; ``[Tool Demo] AmCAT(s): The Amsterdam Content Analysis Toolkits Suite''}.
 \item[--] COMPTEXT Conference 2023, Glasgow, presentation \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System''}.

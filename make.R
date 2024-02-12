@@ -73,6 +73,7 @@ update_downloads <- function(file = "CV_JohannesGruber.bib",
                                           "rwhatsapp", 
                                           "LexisNexisTools",
                                           "cookiemonster",
+                                          "rollama",
                                           "spacyr",
                                           "quanteda.textmodels")) {
   
