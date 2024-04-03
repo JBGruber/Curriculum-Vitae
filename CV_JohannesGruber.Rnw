@@ -51,6 +51,13 @@
 
 \newcommand{\newpar}{\par\vspace{1.5mm}}
 
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
 %Font
 % \usepackage{ucs} % Unicode support
 \usepackage[scaled]{helvet}
@@ -96,6 +103,9 @@
   X % dynamical column width
   @{} % no \tabcolsep on the right side
 }
+
+Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} in Journalism Studies at the Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+\addlinespace
 
 Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
@@ -165,6 +175,7 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{CCR.2024}\blfootnote{*All authors contributed to this project equally. The order of the names was determined by a random draw.}
 \nocite{Gamestop.2023}
 \nocite{qtele2022}
 \nocite{GruberTroublemakers2022}
@@ -206,7 +217,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
-\item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2023), Rotterdam, presentations: \emph{``Dancing to the partisan beat. A comparative analysis of political parties’ TikTok use across Europe''}.
+\item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2024), Rotterdam, presentations: \emph{``Dancing to the partisan beat. A comparative analysis of political parties’ TikTok use across Europe''}.
 \item[--] Invited Talk \emph{``Using open source generative large language models with Ollama''} at the Vrije Universiteit Amsterdam Societal Analytics Lab New Year's meetup and LLM-workshop, 30/01/2024.
 \item[--] 13th annual conference of the European Political Science Association (EPSA 2023), Glasgow, presentations: \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System'', ``Whose voices are heard? Making sense of framing patterns in protest coverage''}.
 \item[--] 32nd Annual International Communication Association (ICA 2023) Conference, Toronto, presentations: \emph{``Why WallStreetBets Isn’t Occupy 2.0: How the Rise of Platforms Can Disrupt Connective Action''; ``[Tool Demo] AmCAT(s): The Amsterdam Content Analysis Toolkits Suite''}.
