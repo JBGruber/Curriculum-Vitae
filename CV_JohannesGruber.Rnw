@@ -86,8 +86,9 @@
     }\\
   Vrije Universiteit Amsterdam\\
   \ico{Mail} \titlehref{mailto:J.B.Gruber@vu.nl}{J.B.Gruber@vu.nl}\\
-  \ico{Mastodon} \titlehref{https://fosstodon.org/@JBGruber}{@JBGruber@fosstodon.org} | 
-  \ico{Twitter} \titlehref{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
+  \ico{Bluesky} \titlehref{https://bsky.app/profile/jbgruber.bsky.social}{@JohannesBGruber} | 
+  %\ico{Twitter} \titlehref{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
+  %\ico{Mastodon} \titlehref{https://fosstodon.org/@JBGruber}{@JBGruber@fosstodon.org} | 
   \ico{GitHub} \titlehref{https://github.com/JBGruber}{JBGruber} |
   \ico{Stackoverflow} \titlehref{https://stackoverflow.com/users/5028841/jbgruber?tab=answers&sort=votes}{JBGruber} \\
   \ico{Website} \titlehref{https://www.johannesbgruber.eu/}{JohannesBGruber.eu}\\
@@ -104,10 +105,10 @@
   @{} % no \tabcolsep on the right side
 }
 
-Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} in Journalism Studies at the Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Department of Language, Literature and Communication at Vrije Universiteit. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
-Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+Apr. 2023---Mar. 2024: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
 Oct. 2022---Sep. 2023: & \textbf{Post-Doc Researcher} at the Department of Communication Science at Vrije Universiteit Amsterdam. Project: \href{https://opted.eu/}{OPTED -- Observatory for Political Texts in European Democracies}. \\
@@ -175,6 +176,8 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{gruber2024rollama}
+\nocite{Gamestop.2023}
 \nocite{CCR.2024}\blfootnote{*All authors contributed to this project equally. The order of the names was determined by a random draw.}
 \nocite{Gamestop.2023}
 \nocite{qtele2022}
