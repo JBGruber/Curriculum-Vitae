@@ -83,8 +83,13 @@ update_downloads <- function(file = "CV_JohannesGruber.bib",
   
   lines <- readLines(file)
   entry_start <- grep("@.+?\\{", lines)
-  ends <- c(entry_start[2:length(entry_start)] - 1, length(lines))
-  entries <- lapply(seq_along(entry_start), function(i) lines[entry_start[i]:ends[i]])
+  entry_end <- c(entry_start[2:length(entry_start)] - 1, length(lines))
+  ps <- grep("@package{", lines[entry_start], fixed = TRUE)
+  entry_start <- entry_start[ps]
+  entry_end <- entry_end[ps]
+  
+  entries <- lapply(seq_along(entry_start), function(i) 
+    lines[entry_start[i]:entry_end[i]])
   
   for (i in seq_along(packages)) {
     if (interactive()) 
