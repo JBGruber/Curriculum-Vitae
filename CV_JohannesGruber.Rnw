@@ -220,18 +220,20 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
-\item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2024), Rotterdam, presentations: \emph{``Dancing to the partisan beat. A comparative analysis of political parties’ TikTok use across Europe''}.
+\item[--] COMPTEXT Conference 2024, Amsterdam, Keynote: \emph{``We should use local GPTs (and it's very easy to do!)''}.
+\item[--] COMPTEXT Conference 2024, Amsterdam, presentations: \emph{``Short-Form, Broad Reach: Multimodal Political Communication on TikTok''}; \emph{``The TikTok EuroParty database: Analyzing Political Party Activity on TikTok across 30 European Countries''}.
+\item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2024), Rotterdam, presentation: \emph{``Dancing to the partisan beat. A comparative analysis of political parties’ TikTok use across Europe''}.
 \item[--] Invited Talk \emph{``Using open source generative large language models with Ollama''} at the Vrije Universiteit Amsterdam Societal Analytics Lab New Year's meetup and LLM-workshop, 30/01/2024.
 \item[--] 13th annual conference of the European Political Science Association (EPSA 2023), Glasgow, presentations: \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System'', ``Whose voices are heard? Making sense of framing patterns in protest coverage''}.
 \item[--] 32nd Annual International Communication Association (ICA 2023) Conference, Toronto, presentations: \emph{``Why WallStreetBets Isn’t Occupy 2.0: How the Rise of Platforms Can Disrupt Connective Action''; ``[Tool Demo] AmCAT(s): The Amsterdam Content Analysis Toolkits Suite''}.
-\item[--] COMPTEXT Conference 2023, Glasgow, presentation \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System''}.
-\item[--] 2022 (In)Visibility in the Digital Age, DGPuK-Fachgruppe Digitale Kommunikation, Düsseldorf, presentation \emph{``Fragmentierung im Facebook-Feed? Die (Un-)Sichtbarkeit politischer Inhalte im Bundestagswahlkampf 2021''}.
-\item[--] 2022 ECREA 2022 9th European Communication Conference, Aarhus, presentation \emph{``Fragmentation in Your Feeds? What voters saw on Facebook in the 2021 German election campaigns''}.
-\item[--] 2022 APSA Annual Meeting \& Exhibition, Montreal, presentation \emph{``Why WallStreetBets isn’t Occupy 2.0: How the Rise of Platforms can Disrupt Connective Action''}.
+\item[--] COMPTEXT Conference 2023, Glasgow, presentation: \emph{``How Political Agendas Form: Relations Between Legacy, Social and Web Media in the Hybrid Media System''}.
+\item[--] 2022 (In)Visibility in the Digital Age, DGPuK-Fachgruppe Digitale Kommunikation, Düsseldorf, presentation: \emph{``Fragmentierung im Facebook-Feed? Die (Un-)Sichtbarkeit politischer Inhalte im Bundestagswahlkampf 2021''}.
+\item[--] 2022 ECREA 2022 9th European Communication Conference, Aarhus, presentation: \emph{``Fragmentation in Your Feeds? What voters saw on Facebook in the 2021 German election campaigns''}.
+\item[--] 2022 APSA Annual Meeting \& Exhibition, Montreal, presentation: \emph{``Why WallStreetBets isn’t Occupy 2.0: How the Rise of Platforms can Disrupt Connective Action''}.
 \item[--] Invited Talk ``Semi-Automated Content Analysis of Media Frames'' at Text as Data PoliSci Reading Group, 05/07/2022.
-\item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation \emph{``Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017''}, \url{https://youtu.be/uA4rs2at-bc}.
+\item[--] 72nd Annual International Communication Association (ICA 2022) Conference, Paris, presentation: \emph{``Troublemakers in the Streets? A Framing Analysis of Newspaper Coverage of Protests in the UK 1992-2017''}, \url{https://youtu.be/uA4rs2at-bc}.
 \item[--] Third Annual COMPTEXT Conference, online event (COMPTEXT 2020), attendee only.
-\item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
+\item[--] European Consortium for Political Research 2019 General Conference (ECPR 2019), Wroc\l{}aw, presentation: \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
 \item[--] Fifth International Conference on Computational Social Science (IC\textsuperscript{2}S\textsuperscript{2} 2019), Amsterdam, presentation: \emph{``Troublemakers in the streets? 26 years of UK newspaper coverage of protest''}.
 \item[--] Ninth annual conference of the European Political Science Association (EPSA 2019), Belfast, presentation: \emph{``Semi-automated Content Analysis of Media Frames''}.
 \item[--] Quantitative Text Analysis Dublin (QTA-DUB 2019), Dublin, presentation: \emph{``How to Analyse Media Reports of Protest? An Automated Content Analysis Approach''}.
@@ -242,6 +244,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] Comptext24 Workshop: \href{https://comptext24.vercel.app/#workshops}{Intro to web scraping}, 02/05/2024
 \item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
 \item[--] NCRM/Exeter Computational Communication Methods Spring School: \href{https://web.archive.org/web/20230324195816/https://politics.exeter.ac.uk/research/centres/q-step/events/ncrmexetercomputationalcommunicationmethodsspringschool/#a5}{Collaborative annotation projects for supervised machine learning with \emph{AmCAT}}, 28/04/2023
@@ -274,32 +277,33 @@ Classifcation: Very Good (1,5)\\
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Training} \par
-\begin{tabularx}{\textwidth}{
-  @{} % no \tabcolsep on the left side
-  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
-  X % dynamical column width
-  @{} % no \tabcolsep on the right side
-}
-24.---25. Apr. 2017 &  Text Learning Workshop at the LSE, held by Prof. Ken Benoit, London \\
-\addlinespace
-24. Mar. 2017 & Supervised and Unsupervised Text Scaling, held by Prof. Jonathan Slapin, Glasgow \\
-\addlinespace
+%\hdline{\linewidth}{Training} \par
+%\begin{tabularx}{\textwidth}{
+%  @{} % no \tabcolsep on the left side
+%  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
+%  X % dynamical column width
+%  @{} % no \tabcolsep on the right side
+%}
+%24.---25. Apr. 2017 &  Text Learning Workshop at the LSE, held by Prof. Ken Benoit, London \\
+%\addlinespace
+%24. Mar. 2017 & Supervised and Unsupervised Text Scaling, held by Prof. Jonathan Slapin, Glasgow \\
+%\addlinespace
 
-10. Mar. 2017 & Similarity and Classification with Machine Learning for Political Texts, held by Dr. Nicole Rae Baerg, Glasgow \\
-\addlinespace
+%10. Mar. 2017 & Similarity and Classification with Machine Learning for Political Texts, held by Dr. Nicole Rae Baerg, Glasgow \\
+%\addlinespace
 
-16. Nov. 2016 & Text Analysis with R, held by Dr. Wouter van Atteveldt, Glasgow\\
-\addlinespace
+%16. Nov. 2016 & Text Analysis with R, held by Dr. Wouter van Atteveldt, Glasgow\\
+%\addlinespace
 
-20. Oct. 2016 & Introduction to Text Analysis Using R, held by Prof. Ken Benoit,
-Glasgow\\
-\end{tabularx}
+%20. Oct. 2016 & Introduction to Text Analysis Using R, held by Prof. Ken Benoit,
+%Glasgow\\
+%\end{tabularx}
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Referee for Journals
-\hdline{\linewidth}{Referee for Journals} \par
+\hdline{\linewidth}{External Activities \& Service to Profession} \par
+\textbf{Referee for Journals}
 \begin{itemize}
   \item \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
   \item \href{https://epjdatascience.springeropen.com/}{EPJ Data Science}
@@ -309,6 +313,15 @@ Glasgow\\
   \item \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
   \item \href{https://journals.sagepub.com/home/hij}{The International Journal of Press/Politics}
 \end{itemize}
+
+\begin{tabularx}{\textwidth}{
+  @{} % no \tabcolsep on the left side
+  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
+  X % dynamical column width
+  @{} % no \tabcolsep on the right side
+}
+2023---2024 & Co-organizer of COMPTEXT Conference, Amsterdam May 2024
+\end{tabularx}
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
