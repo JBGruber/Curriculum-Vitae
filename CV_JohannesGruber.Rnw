@@ -176,9 +176,8 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
-\nocite{gruber2024rollama}
-\nocite{Gamestop.2023}
 \nocite{CCR.2024}\blfootnote{*All authors contributed to this project equally. The order of the names was determined by a random draw.}
+\nocite{gruber2024rollama}
 \nocite{Gamestop.2023}
 \nocite{qtele2022}
 \nocite{GruberTroublemakers2022}
@@ -302,7 +301,7 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Referee for Journals
-\hdline{\linewidth}{External Activities \& Service to Profession} \par
+\hdline{\linewidth}{Service to Profession} \par
 \textbf{Referee for Journals}
 \begin{itemize}
   \item \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
