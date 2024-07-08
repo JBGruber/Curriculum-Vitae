@@ -105,7 +105,7 @@
   @{} % no \tabcolsep on the right side
 }
 
-Apr. 2023---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Department of Language, Literature and Communication at Vrije Universiteit. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+Apr. 2024---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Department of Language, Literature and Communication at Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
 Apr. 2023---Mar. 2024: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
@@ -179,6 +179,7 @@ Classifcation: Very Good (1,5)\\
 \nocite{CCR.2024}\blfootnote{*All authors contributed to this project equally. The order of the names was determined by a random draw.}
 \nocite{software_doc}
 \nocite{gruber2024rollama}
+\nocite{nonconsumptive}
 \nocite{Gamestop.2023}
 \nocite{qtele2022}
 \nocite{GruberTroublemakers2022}
@@ -221,7 +222,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
-\item[--] The 2nd Post-API Conference, \href{https://sites.google.com/umich.edu/postapiconference/post-api-2024-schedule}{"Social media data acquisition in a Post-API world"}, Queensland University of Technology, Brisbane, presentations: \emph{``Queensland University of Technology''}.
+\item[--] The 2nd Post-API Conference, \href{https://sites.google.com/umich.edu/postapiconference/post-api-2024-schedule}{"Social media data acquisition in a Post-API world"}, Queensland University of Technology, Brisbane, presentations: \emph{``Sharing is Caring (about Research): Four Avenues for Sharing (Copyrighted) Text Collections and the Need for Non-Consumptive Research''}.
 \item[--] 74th Annual International Communication Association Conference (ICA 2024), Gold Coast, presentations: \emph{``What Makes Computational Communication Science (Ir)reproducible?''; ``Whose Voices Are Heard? Making Sense of Framing Patterns in Protest Coverage''}.
 \item[--] OPINION | COST Action CA21129 Working Group Meeting 2024, University of Salamanca, Masterclass: \emph{``The Good, The Bad, and The Generated: Opinion Mining with (local) AI''}.
 \item[--] COMPTEXT Conference 2024, Amsterdam, Keynote: \emph{``We should use local GPTs (and it's very easy to do!)''}.
@@ -248,8 +249,10 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+% \item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x6C2F9D88EDAD43D197A2F284BAA9B007&subID=0x5236DF24115A4DABBA25118B4A81384D}{Introduction to Computational Social Science with R}, 30/08 - 05/09/2024
+% \item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2024-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 22/07-02/08/2024
 \item[--] Comptext24 Workshop: \href{https://comptext24.vercel.app/#workshops}{Intro to web scraping}, 02/05/2024
-\item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
+\item[--] Essex Summer School in Social Science Data Analysis: \href{https://web.archive.org/web/20231003195916/https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
 \item[--] NCRM/Exeter Computational Communication Methods Spring School: \href{https://web.archive.org/web/20230324195816/https://politics.exeter.ac.uk/research/centres/q-step/events/ncrmexetercomputationalcommunicationmethodsspringschool/#a5}{Collaborative annotation projects for supervised machine learning with \emph{AmCAT}}, 28/04/2023
 \item[--] Text Analysis in R: An Introduction at Goethe-University Frankfurt, 27-28/03/2023.
