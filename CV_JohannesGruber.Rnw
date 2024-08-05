@@ -105,7 +105,7 @@
   @{} % no \tabcolsep on the right side
 }
 
-Apr. 2024---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Department of Language, Literature and Communication at Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+Apr. 2024---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Language, Literature and Communication at Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
 Apr. 2023---Mar. 2024: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
@@ -249,8 +249,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
-% \item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x6C2F9D88EDAD43D197A2F284BAA9B007&subID=0x5236DF24115A4DABBA25118B4A81384D}{Introduction to Computational Social Science with R}, 30/08 - 05/09/2024
-% \item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2024-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 22/07-02/08/2024
+\item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x6C2F9D88EDAD43D197A2F284BAA9B007&subID=0x5236DF24115A4DABBA25118B4A81384D}{Introduction to Computational Social Science with R}, 30/08 - 05/09/2024
+\item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2024-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 22/07-02/08/2024
 \item[--] Comptext24 Workshop: \href{https://comptext24.vercel.app/#workshops}{Intro to web scraping}, 02/05/2024
 \item[--] Essex Summer School in Social Science Data Analysis: \href{https://web.archive.org/web/20231003195916/https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
@@ -312,6 +312,7 @@ Classifcation: Very Good (1,5)\\
 \hdline{\linewidth}{Service to Profession} \par
 \textbf{Referee for Journals}
 \begin{itemize}
+  \item \href{https://www.cambridge.org/core/journals/political-analysis}{Political Analysis}
   \item \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
   \item \href{https://epjdatascience.springeropen.com/}{EPJ Data Science}
   \item \href{https://www.tandfonline.com/journals/hmcs20}{Mass Communication and Society}
