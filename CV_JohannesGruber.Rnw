@@ -223,6 +223,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] 2024 ECREA 2024 10th European Communication Conference, Ljubljana, presentation: \emph{``How media storms are framed: Relations between legacy, social and web media in the hybrid media system''}, roundtable: \emph{``Advancing the study of opinion expressions in digital media: The OPINION Network approach
+''}.
 \item[--] The 2nd Post-API Conference, \href{https://sites.google.com/umich.edu/postapiconference/post-api-2024-schedule}{"Social media data acquisition in a Post-API world"}, Queensland University of Technology, Brisbane, presentations: \emph{``Sharing is Caring (about Research): Four Avenues for Sharing (Copyrighted) Text Collections and the Need for Non-Consumptive Research''}.
 \item[--] 74th Annual International Communication Association Conference (ICA 2024), Gold Coast, presentations: \emph{``What Makes Computational Communication Science (Ir)reproducible?''; ``Whose Voices Are Heard? Making Sense of Framing Patterns in Protest Coverage''}.
 \item[--] OPINION | COST Action CA21129 Working Group Meeting 2024, University of Salamanca, Masterclass: \emph{``The Good, The Bad, and The Generated: Opinion Mining with (local) AI''}.
