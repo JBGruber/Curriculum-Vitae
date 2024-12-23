@@ -108,6 +108,9 @@
 Apr. 2024---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Language, Literature and Communication at Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
+Jan. 2025---\textbf{current}: & \textbf{Data Editor} at \href{https://www.tandfonline.com/journals/upcp20/about-this-journal}{Political Communication}. \\
+\addlinespace
+
 Apr. 2023---Mar. 2024: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
@@ -174,16 +177,42 @@ Classifcation: Very Good (1,5)\\
 \end{tabularx}
 
 
+%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%\hdline{}{Leadership} \par
+%
+%\begin{tabularx}{\textwidth}{
+%  @{} % no \tabcolsep on the left side
+%  >{\RaggedRight}p{4.1cm}% let the p column typeset ragged right
+%  X % dynamical column width
+%  @{} % no \tabcolsep on the right side
+%}
+%Jul. 2024---\textbf{current}: & \textbf{Chair} of Working Group 2 (Tools) of the \href{OPINION COST network}{https://www.opinion-network.eu/} (leading 95 members). \\
+%\addlinespace
+%
+%Oct. 2023---Jul. 2024: & Co-Chair of Working Group 2 (Tools) of the \href{OPINION COST network}{https://www.opinion-network.eu/} (co-leading 95 members). \\
+%\addlinespace
+%
+%Aug. 2021---Dec. 2021: & Project manager at \href{Zahlen zur Wahl}{https://zahlen-zur-wahl.de/} project (leading five research assistants). \\
+%\addlinespace
+%
+%Mar. 2020---Jun. 2021: & Leader project group "Social Media" at \href{Heinrich-Boell-Stiftung Hessen e.V.}{https://www.boell-hessen.de/} project (leading four members). \\
+%\addlinespace
+%
+%\end{tabularx}
+
+
+
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{weaponizing2024}
 \nocite{llm}
 \nocite{CCR.2024}\blfootnote{*All authors contributed to this project equally. The order of the names was determined by a random draw.}
 \nocite{software_doc}
 \nocite{gruber2024rollama}
 \nocite{nonconsumptive}
 \nocite{Gamestop.2023}
-\nocite{qtele2022}
 \nocite{GruberTroublemakers2022}
+\nocite{qtele2022}
 \nocite{gruberthesis.2021}
 \nocite{Langerwindrush.2020}
 \nocite{Leifeld.2018}
@@ -223,6 +252,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] Invited Talk \emph{``TikTok Research with traktok \& Short-Form, Broad Reach''} at Institut für Publizistik - Johannes Gutenberg-Universität Mainz, 07/11/2024.
+\item[--] Invited Talk \emph{``We should use local gLLMs (and it’s surprisingly easy to do!)''} at the European Policy Data Science Network Meetup, 17/10/2024.
 \item[--] 2024 ECREA 2024 10th European Communication Conference, Ljubljana, presentation: \emph{``How media storms are framed: Relations between legacy, social and web media in the hybrid media system''}, roundtable: \emph{``Advancing the study of opinion expressions in digital media: The OPINION Network approach
 ''}.
 \item[--] The 2nd Post-API Conference, \href{https://sites.google.com/umich.edu/postapiconference/post-api-2024-schedule}{"Social media data acquisition in a Post-API world"}, Queensland University of Technology, Brisbane, presentations: \emph{``Sharing is Caring (about Research): Four Avenues for Sharing (Copyrighted) Text Collections and the Need for Non-Consumptive Research''}.
@@ -274,7 +305,7 @@ Classifcation: Very Good (1,5)\\
 \hdline{\linewidth}{Professional Memberships} \par
 \begin{itemize}
 \item[--] International Communication Association.
-\item[--] COST action network \href{https://www.opinion-network.eu/}{OPINION} -- Vice Chair Working Group 2 (Tools).
+\item[--] COST action network \href{https://www.opinion-network.eu/}{OPINION} -- Chair Working Group 2 (Tools).
 \end{itemize}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -315,13 +346,15 @@ Classifcation: Very Good (1,5)\\
 \hdline{\linewidth}{Service to Profession} \par
 \textbf{Referee for Journals}
 \begin{itemize}
-  \item \href{https://www.cambridge.org/core/journals/political-analysis}{Political Analysis}
   \item \href{https://computationalcommunication.org/ccr}{Computational Communication Research}
   \item \href{https://epjdatascience.springeropen.com/}{EPJ Data Science}
+  \item \href{https://www.cambridge.org/core/journals/political-analysis}{Political Analysis}
   \item \href{https://www.tandfonline.com/journals/hmcs20}{Mass Communication and Society}
   \item \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
   \item \href{https://www.m-und-k.nomos.de/}{Medien \& Kommunikationswissenschaft (M\&K)}
+  \item \href{https://onlinelibrary.wiley.com/journal/14679221}{Political Psychology}  
   \item \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
+  \item \href{https://journals.sagepub.com/home/ssc}{Social Science Computer Review}  
   \item \href{https://journals.sagepub.com/home/hij}{The International Journal of Press/Politics}
 \end{itemize}
 
