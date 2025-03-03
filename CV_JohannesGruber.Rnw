@@ -105,10 +105,13 @@
   @{} % no \tabcolsep on the right side
 }
 
-Apr. 2024---\textbf{current}: & \textbf{Post-Doc Researcher} at the Department of Language, Literature and Communication at Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
+Apr. 2025---\textbf{current}: & \textbf{Team Leader} at GESIS ‑ Leibniz Institute for the Social Sciences, \href{https://www.gesis.org/en/institute/about-us/departments/data-services-for-the-social-sciences}{Data Services for the Social Sciences}. Team:  Metadata Standards and Interoperability. \\
 \addlinespace
 
 Jan. 2025---\textbf{current}: & \textbf{Data Editor} at \href{https://www.tandfonline.com/journals/upcp20/about-this-journal}{Political Communication}. \\
+\addlinespace
+
+Apr. 2024---Mar. 2025: & \textbf{Post-Doc Researcher} at the Department of Language, Literature and Communication at Vrije Universiteit Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
 \addlinespace
 
 Apr. 2023---Mar. 2024: & \textbf{Post-Doc Researcher} at the Department of Communication Science at the University of Amsterdam. Project: \href{https://newsflows.eu/}{NEWSFLOWS. Modeling news flows: How feedback loops influence citizens beliefs and shape democracy}. \\
@@ -252,6 +255,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2025), Bruges, presentation: \emph{``Textual Feelings: A Review of Computational Tools for Measuring Opinions in Text''}.
 \item[--] Invited Talk \emph{``TikTok Research with traktok \& Short-Form, Broad Reach''} at Institut für Publizistik - Johannes Gutenberg-Universität Mainz, 07/11/2024.
 \item[--] Invited Talk \emph{``We should use local gLLMs (and it’s surprisingly easy to do!)''} at the European Policy Data Science Network Meetup, 17/10/2024.
 \item[--] 2024 ECREA 2024 10th European Communication Conference, Ljubljana, presentation: \emph{``How media storms are framed: Relations between legacy, social and web media in the hybrid media system''}, roundtable: \emph{``Advancing the study of opinion expressions in digital media: The OPINION Network approach
@@ -351,6 +355,7 @@ Classifcation: Very Good (1,5)\\
   \item \href{https://www.cambridge.org/core/journals/political-analysis}{Political Analysis}
   \item \href{https://www.tandfonline.com/journals/hmcs20}{Mass Communication and Society}
   \item \href{https://www.cogitatiopress.com/mediaandcommunication}{Media and Communication}
+  \item \href{https://journals.sagepub.com/home/nms}{New Media \& Society}
   \item \href{https://www.m-und-k.nomos.de/}{Medien \& Kommunikationswissenschaft (M\&K)}
   \item \href{https://onlinelibrary.wiley.com/journal/14679221}{Political Psychology}  
   \item \href{https://www.cogitatiopress.com/politicsandgovernance}{Politics and Governance}
