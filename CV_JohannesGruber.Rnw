@@ -207,6 +207,8 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{paperboy_paper_2025}
+\nocite{traktok_paper_2025}
 \nocite{weaponizing2024}
 \nocite{llm}
 \nocite{CCR.2024}\blfootnote{*All authors contributed to this project equally. The order of the names was determined by a random draw.}
@@ -255,6 +257,9 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] 75th Annual International Communication Association Conference (ICA 2025), Denver, presentations: \emph{``Sharing Is Caring (About Research): Three Avenues for Sharing (Protected) Text Collections and the Need for Non-
+Consumptive Research''; ``[Tool Demo] Traktok: Making TikTok Data Accessible for Research''; ``[Tool Demo] Paperboy: A Collection of News Media Scrapers''}.
+\item[--] Annual Conference of the International Association for Social Science Information Service and Technology (IASSIST 2025), Bristol, presentation: \emph{``Sharing is Caring (about Research): Addressing Challenges in Sharing Protected Text Data Collections through Non-Consumptive Research''}.
 \item[--] Etmaal van de Communicatiewetenschap conference (Etmaal 2025), Bruges, presentation: \emph{``Textual Feelings: A Review of Computational Tools for Measuring Opinions in Text''}.
 \item[--] Invited Talk \emph{``TikTok Research with traktok \& Short-Form, Broad Reach''} at Institut für Publizistik - Johannes Gutenberg-Universität Mainz, 07/11/2024.
 \item[--] Invited Talk \emph{``We should use local gLLMs (and it’s surprisingly easy to do!)''} at the European Policy Data Science Network Meetup, 17/10/2024.
@@ -287,6 +292,8 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
+\item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x5BF8A4FD062A4262BB2477F11CC54752&subID=0xEF372D66C5804143A89FCEC3A074558C}{Introduction to Computational Social Science with R}, 01/09 - 05/09/2025
+\item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2025-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 07/07-18/07/2025
 \item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x6C2F9D88EDAD43D197A2F284BAA9B007&subID=0x5236DF24115A4DABBA25118B4A81384D}{Introduction to Computational Social Science with R}, 30/08 - 05/09/2024
 \item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2024-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 22/07-02/08/2024
 \item[--] Comptext24 Workshop: \href{https://comptext24.vercel.app/#workshops}{Intro to web scraping}, 02/05/2024
