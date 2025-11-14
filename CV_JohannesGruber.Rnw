@@ -63,6 +63,11 @@
 \usepackage[scaled]{helvet}
 \usepackage[T1]{fontenc}
 \renewcommand\familydefault{\sfdefault}
+
+% Reduce hyphenation
+\hyphenpenalty=5000
+\tolerance=1000
+\emergencystretch=3em
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 %Footer
@@ -84,8 +89,8 @@
     \vspace{5mm}
     \huge{Johannes B. Gruber}
     }\\
-  Vrije Universiteit Amsterdam\\
-  \ico{Mail} \titlehref{mailto:J.B.Gruber@vu.nl}{J.B.Gruber@vu.nl}\\
+  GESIS -- Leibniz Institute for the Social Sciences \\
+  \ico{Mail} \titlehref{mailto:Johannes.Gruber@gesis.org}{Johannes.Gruber@gesis.org}\\
   \ico{Bluesky} \titlehref{https://bsky.app/profile/jbgruber.bsky.social}{@JohannesBGruber} | 
   %\ico{Twitter} \titlehref{https://twitter.com/JohannesBGruber}{@JohannesBGruber} | 
   %\ico{Mastodon} \titlehref{https://fosstodon.org/@JBGruber}{@JBGruber@fosstodon.org} | 
@@ -135,7 +140,7 @@ Development and documentation of \texttt{Discourse Network Analyzer (DNA)} and i
 \addlinespace
 Sep. 2016---Nov. 2016: & Freelance Researcher for Prof. Dr. Daniela Grunow, Faculty of Social Sciences Goethe-University.\par
 Project: ``THE APPARENT PROJECT. International and national studies of norms and gender division of work at the life course transition to parenthood''\par
-Role: creating a newspaper article dataset on parenthood depictions in \textit{The Guardian}\\
+Role: creating a newspaper article dataset on parenthood depictions in \textit{The Guardian}. \\
 
 \addlinespace
 Mar. 2015---Dec. 2016: & Research Assistant for Dr. Iñaki Sagarzazu and Dr. Ana Inés Langer at the University of Glasgow.\par
@@ -207,6 +212,7 @@ Classifcation: Very Good (1,5)\\
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Publications} \par
+\nocite{baumann_llm_hacking_2025}
 \nocite{paperboy_paper_2025}
 \nocite{traktok_paper_2025}
 \nocite{weaponizing2024}
@@ -257,6 +263,7 @@ Classifcation: Very Good (1,5)\\
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Conferences and Talks} \par
 \begin{itemize}
+\item[--] 2025 KODAQS Workshop ``Intrinsic/Extrinsic -- Transferring and Developing Quality Indicators for Online Platform Data'', Cologne, 27-28/08/2025, presentation: \emph{``Gaslight, Gather, Gatekeep? Comparing Access Strategies for Research on TikTok Data''}.
 \item[--] 75th Annual International Communication Association Conference (ICA 2025), Denver, presentations: \emph{``Sharing Is Caring (About Research): Three Avenues for Sharing (Protected) Text Collections and the Need for Non-
 Consumptive Research''; ``[Tool Demo] Traktok: Making TikTok Data Accessible for Research''; ``[Tool Demo] Paperboy: A Collection of News Media Scrapers''}.
 \item[--] Annual Conference of the International Association for Social Science Information Service and Technology (IASSIST 2025), Bristol, presentation: \emph{``Sharing is Caring (about Research): Addressing Challenges in Sharing Protected Text Data Collections through Non-Consumptive Research''}.
@@ -292,10 +299,10 @@ Consumptive Research''; ``[Tool Demo] Traktok: Making TikTok Data Accessible for
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \hdline{\linewidth}{Teaching Experience} \par
 \begin{itemize}
-\item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x5BF8A4FD062A4262BB2477F11CC54752&subID=0xEF372D66C5804143A89FCEC3A074558C}{Introduction to Computational Social Science with R}, 01/09 - 05/09/2025
-\item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2025-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 07/07-18/07/2025
-\item[--] GESIS Fall Seminar in Computational Social Science : \href{https://training.gesis.org/?site=pDetails&child=full&pID=0x6C2F9D88EDAD43D197A2F284BAA9B007&subID=0x5236DF24115A4DABBA25118B4A81384D}{Introduction to Computational Social Science with R}, 30/08 - 05/09/2024
-\item[--] Essex Summer School in Social Science Data Analysis: \href{https://essexsummerschool.com/summer-school-facts/courses/ess-2024-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 22/07-02/08/2024
+\item[--] GESIS Fall Seminar in Computational Social Science : \href{https://web.archive.org/web/20250814200210/https://training.gesis.org/?site=pDetails&child=full&pID=0x5BF8A4FD062A4262BB2477F11CC54752&subID=0xEF372D66C5804143A89FCEC3A074558C}{Introduction to Computational Social Science with R}, 01/09 - 05/09/2025
+\item[--] Essex Summer School in Social Science Data Analysis: \href{https://web.archive.org/web/20250807152208/https://essexsummerschool.com/summer-school-facts/courses/ess-2025-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 07/07-18/07/2025
+\item[--] GESIS Fall Seminar in Computational Social Science : \href{https://web.archive.org/web/20240922184005/https://training.gesis.org/?site=pDetails&child=full&pID=0x6C2F9D88EDAD43D197A2F284BAA9B007&subID=0x5236DF24115A4DABBA25118B4A81384D}{Introduction to Computational Social Science with R}, 30/08 - 05/09/2024
+\item[--] Essex Summer School in Social Science Data Analysis: \href{https://web.archive.org/web/20241105002559/https://essexsummerschool.com/summer-school-facts/courses/ess-2024-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 22/07-02/08/2024
 \item[--] Comptext24 Workshop: \href{https://comptext24.vercel.app/#workshops}{Intro to web scraping}, 02/05/2024
 \item[--] Essex Summer School in Social Science Data Analysis: \href{https://web.archive.org/web/20231003195916/https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/2v-introduction-to-web-scraping-and-data-management-for-social-scientists/}{Introduction to Web Scraping and Data Management for Social Scientists}, 24-28/07/2023
 \item[--] 2-day workshop: Text Analysis in R at Vienna Doctoral School of Social Sciences, 06-07/07/2023
@@ -390,7 +397,7 @@ Consumptive Research''; ``[Tool Demo] Traktok: Making TikTok Data Accessible for
 
 \textbf{Programming/Statistical Software}
 \begin{itemize}
-\item[--] R, Python, Stata 
+\item[--] R, Python, Stata, Git
 \end{itemize}
 
 \textbf{Markup languages}
@@ -405,13 +412,13 @@ Consumptive Research''; ``[Tool Demo] Traktok: Making TikTok Data Accessible for
 
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\hdline{\linewidth}{Research Interests} \par
-Methodologically my main interest lies in the systematic analysis of media---mainly via automated content analysis and natural language processing methods. 
-I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
-
-My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
-Currently I also develop my own research line on diffusion of ideas in hybrid media systems.
-Both topics are closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
+% \hdline{\linewidth}{Research Interests} \par
+% Methodologically my main interest lies in the systematic analysis of media---mainly via automated content analysis and natural language processing methods. 
+% I predominantly use R for this and also started to develop several open-source software packages with functions that I use in my current research or I think will be interesting for future research projects.
+% 
+% My main empirical interest remains in political communication and especially in the topic of media coverage of protest events and their significance for political discourse in representative democracies.
+% Currently I also develop my own research line on diffusion of ideas in hybrid media systems.
+% Both topics are closely connected to my interest in media discourse as well as representation of dissent and demonstrations in the media.
 
 
 \end{document}
