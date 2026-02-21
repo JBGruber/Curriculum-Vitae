@@ -5,7 +5,7 @@
 
 ------------------------------------------------------------------------
 
-<img src="png_version/CV_JohannesGruber-1.png" width="2480" /><img src="png_version/CV_JohannesGruber-2.png" width="2480" /><img src="png_version/CV_JohannesGruber-3.png" width="2480" />
+<img src="png_version/CV_JohannesGruber-1.png" alt="" width="2480" /><img src="png_version/CV_JohannesGruber-2.png" alt="" width="2480" /><img src="png_version/CV_JohannesGruber-3.png" alt="" width="2480" />
 
 Compile from `R` with:
 
