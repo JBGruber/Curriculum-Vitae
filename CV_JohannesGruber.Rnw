@@ -254,7 +254,7 @@ Classifcation: Very Good (1,5)\\
 \hdline{\linewidth}{Awards and Grants} \par
 \begin{itemize}
 \item[--] \emph{AI4SOCIALPLUS: AI Readiness for Social Impact} Jan 2027 -- Dec 2029
-\href{https://cordis.europa.eu/programme/id/HORIZON_HORIZON-INFRA-2025-01-EOSC-03}{HORIZON-INFRA-2025-01-EOSC-03} --- Advancing AI-readiness and Machine-Actionability in the EOSC Ecosystem (Use Case 4: AI-Assisted Social Simulation for Actionable Hypothesis Generation)
+\href{https://cordis.europa.eu/programme/id/HORIZON_HORIZON-INFRA-2025-01-EOSC-03}{HORIZON-INFRA-2025-01-EOSC-03} --- Advancing AI-readiness and Machine-Actionability in the EOSC Ecosystem (Stream B: AI-driven tools for the machine-actionability of data repositories)
 \textbf{€7,486,799.08 (GESIS:  327,500 \euro{})}
 \item[--] Top Paper Award, ICA Computational Methods Division, 74th Annual International Communication Association Conference (ICA 2024)
 \item[--] Ninth Conference on New Directions in Analyzing Text as Data (TADA 2018) travel grant and registration fee waiver
